@@ -61,7 +61,7 @@
     background-color: var(--bg-color) !important;
   }
 
-  .stream-footer .Icon, .follow-text .Icon, .twitter-atreply *, .user-dropdown:hover, .dropdown.open .plain-btn, .user-dropdown:focus, .Icon--verified {
+  .stream-footer .Icon, .follow-text .Icon, .twitter-atreply *, .user-dropdown:hover, .dropdown.open .plain-btn, .user-dropdown:focus, .Icon--verified, .twitter-hashtag * {
     color: var(--highlight-color) !important;
   }
 
