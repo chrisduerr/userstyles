@@ -65,7 +65,7 @@
     color: var(--highlight-color) !important;
   }
 
-  .fullname, .QuoteTweet-fullname, #tweet-box-home-timeline, .tweet, .SummaryCard-content, .tweet-content, .follow-button, div[contenteditable="true"]:focus, .tweet-btn, .ProfileHeading-toggleItem.is-active, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing-editableField, .tweet-text, .typeahead strong, .DashboardProfileCard {
+  .fullname, .QuoteTweet-fullname, #tweet-box-home-timeline, .tweet, .SummaryCard-content, .tweet-content, .follow-button, div[contenteditable="true"]:focus, .tweet-btn, .ProfileHeading-toggleItem.is-active, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing-editableField, .tweet-text, .typeahead strong, .DashboardProfileCard, .ColorPicker-hexInput:focus {
     color: var(--fg-color) !important;
   }
 
