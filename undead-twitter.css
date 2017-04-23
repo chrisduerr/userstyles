@@ -45,7 +45,7 @@
 
   /* TIMELINE */
 
-  .has-recap, .timeline-end, .caret-inner, .caret-outer, .ProfileCard .arrow, .Icon--verified::before, .Icon--close, .PermalinkOverlay-spinnerContainer, .pushstate-spinner, .ProfileNav-item--lists, .AdaptiveRelatedSearches {
+  .has-recap, .timeline-end, .caret-inner, .caret-outer, .ProfileCard .arrow, .Icon--verified::before, .Icon--close, .PermalinkOverlay-spinnerContainer, .pushstate-spinner, .ProfileNav-item--lists, .AdaptiveRelatedSearches, .LiveVideoHomePageModuleContainer {
     display: none !important;
   }
 
