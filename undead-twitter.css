@@ -73,7 +73,7 @@
     color: var(--secondary-fg-color) !important;
   }
 
-  .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select, .block-section, .caution-btn {
+  .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select, .block-section, .caution-btn, .cancel-action {
     border: none !important;
   }
 
