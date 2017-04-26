@@ -77,7 +77,7 @@
     border: none !important;
   }
 
-  .tweet-btn, .follow-button, .ProfilePage-saveButton, .user-dropdown:focus, .modal-content, .caution-btn {
+  .tweet-btn, .follow-button, .ProfilePage-saveButton, .user-dropdown:focus, .modal-content, .caution-btn, .cancel-action {
     box-shadow: none !important;
   }
 
