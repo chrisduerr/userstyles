@@ -49,7 +49,7 @@
     display: none !important;
   }
 
-  .new-tweets-bar, .tweet, .ThreadedConversation, .inline-reply-tweetbox, .TwitterCard-container, .QuoteTweet, .typeahead-accounts, .dropdown-divider {
+  .new-tweets-bar, .tweet, .ThreadedConversation, .inline-reply-tweetbox, .TwitterCard-container, .QuoteTweet, .typeahead-accounts, .dropdown-divider, .modal-body {
     border-color: var(--secondary-bg-color) !important;
   }
 
@@ -57,15 +57,15 @@
     background-color: var(--secondary-bg-color) !important;
   }
 
-  .tweet-box, .new-tweets-bar, .tweet, .stream-footer, .ThreadedConversation-moreReplies, .inline-reply-tweetbox, .follow-button:hover, .ProfileHeading-content, .ProfilePage-editingOverlay, .ProfileHeaderCardEditing-editableField, .ColorPicker-hexInput, .BirthdateSelect-button, .BirthdateSelect-selectField, .hovercard, .dropdown-menu, .TwitterCard-container:hover, .profile-social-proof, .message, .modal-content, .modal-header, .missing-tweets-bar, .permalink, .t1-select, .Gallery-content {
+  .tweet-box, .new-tweets-bar, .tweet, .stream-footer, .ThreadedConversation-moreReplies, .inline-reply-tweetbox, .follow-button:hover, .ProfileHeading-content, .ProfilePage-editingOverlay, .ProfileHeaderCardEditing-editableField, .ColorPicker-hexInput, .BirthdateSelect-button, .BirthdateSelect-selectField, .hovercard, .dropdown-menu, .TwitterCard-container:hover, .profile-social-proof, .message, .modal-content, .modal-header, .missing-tweets-bar, .permalink, .t1-select, .Gallery-content, .caution-btn, .cancel-action {
     background-color: var(--bg-color) !important;
   }
 
-  .stream-footer .Icon, .follow-text .Icon, .twitter-atreply *, .user-dropdown:hover, .dropdown.open .plain-btn, .user-dropdown:focus, .Icon--verified, .twitter-hashtag * {
+  .stream-footer .Icon, .follow-text .Icon, .twitter-atreply *, .user-dropdown:hover, .dropdown.open .plain-btn, .user-dropdown:focus, .Icon--verified, .twitter-hashtag *, .caution-btn {
     color: var(--highlight-color) !important;
   }
 
-  .fullname, .QuoteTweet-fullname, #tweet-box-home-timeline, .tweet, .SummaryCard-content, .tweet-content, .follow-button, div[contenteditable="true"]:focus, .tweet-btn, .ProfileHeading-toggleItem.is-active, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing-editableField, .tweet-text, .typeahead strong, .DashboardProfileCard, .ColorPicker-hexInput:focus {
+  .fullname, .QuoteTweet-fullname, #tweet-box-home-timeline, .tweet, .SummaryCard-content, .tweet-content, .follow-button, div[contenteditable="true"]:focus, .tweet-btn, .ProfileHeading-toggleItem.is-active, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing-editableField, .tweet-text, .typeahead strong, .DashboardProfileCard, .ColorPicker-hexInput:focus, .cancel-action {
     color: var(--fg-color) !important;
   }
 
@@ -73,15 +73,15 @@
     color: var(--secondary-fg-color) !important;
   }
 
-  .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select {
+  .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select, .block-section, .caution-btn {
     border: none !important;
   }
 
-  .tweet-btn, .follow-button, .ProfilePage-saveButton, .user-dropdown:focus, .modal-content {
+  .tweet-btn, .follow-button, .ProfilePage-saveButton, .user-dropdown:focus, .modal-content, .caution-btn {
     box-shadow: none !important;
   }
 
-  .follow-button, .follow-button:hover, .edit-button, .ProfilePage-cancelButton, .PollXChoice-vote--button {
+  .follow-button, .follow-button:hover, .edit-button, .ProfilePage-cancelButton, .PollXChoice-vote--button, .cancel-action {
     background-image: none !important;
   }
 
