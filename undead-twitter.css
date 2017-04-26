@@ -49,11 +49,11 @@
     display: none !important;
   }
 
-  .new-tweets-bar, .tweet, .ThreadedConversation, .inline-reply-tweetbox, .TwitterCard-container, .QuoteTweet, .typeahead-accounts, .dropdown-divider, .modal-body {
+  .new-tweets-bar, .tweet, .ThreadedConversation, .inline-reply-tweetbox, .TwitterCard-container, .QuoteTweet, .typeahead-accounts, .dropdown-divider {
     border-color: var(--secondary-bg-color) !important;
   }
 
-  .tweet:hover, .follow-button, #tweet-box-home-timeline, .new-tweets-bar:hover, .PermalinkOverlay .tweet-box, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing, .DashboardProfileCard, .ProfileCard, .RetweetDialog-commentBox, .modal-overlay, .AdaptiveFiltersBar, .SidebarFilterModule, .PollXChoice-vote--button {
+  .tweet:hover, .follow-button, #tweet-box-home-timeline, .new-tweets-bar:hover, .PermalinkOverlay .tweet-box, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing, .DashboardProfileCard, .ProfileCard, .RetweetDialog-commentBox, .modal-overlay, .AdaptiveFiltersBar, .SidebarFilterModule, .PollXChoice-vote--button, .modal-body {
     background-color: var(--secondary-bg-color) !important;
   }
 
