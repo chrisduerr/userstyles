@@ -1,0 +1,41 @@
+@-moz-document domain("reddit.com") {
+  :root {
+    --bg-color: #1b1b1b;
+    --fg-color: #9e9e9e;
+    --secondary-bg-color: #262626;
+    --secondary-fg-color: #616161;
+    --highlight-color: #752a2a;
+  }
+
+  * {
+    border-radius: unset !important;
+  }
+
+  body, .tabmenu a, .side, .spacer {
+    background-color: var(--bg-color) !important;
+  }
+
+  .linkflairlabel, #header {
+    background-color: var(--secondary-bg-color) !important;
+  }
+
+  body, .title a, .rank, .unvoted {
+    color: var(--fg-color) !important;
+  }
+
+  .title a:visited, .tabmenu a {
+    color: var(--secondary-fg-color) !important;
+  }
+
+  .tabmenu li.selected a {
+    color: var(--highlight-color) !important;
+  }
+
+  .linkflairlabel, #header, .tabmenu a {
+    border: none !important;
+  }
+
+  .listing-chooser, #sr-header-area {
+    display: none !important;
+  }
+}
