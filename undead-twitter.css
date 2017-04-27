@@ -57,7 +57,7 @@
     background-color: var(--secondary-bg-color) !important;
   }
 
-  .tweet-box, .new-tweets-bar, .tweet, .stream-footer, .ThreadedConversation-moreReplies, .inline-reply-tweetbox, .follow-button:hover, .ProfileHeading-content, .ProfilePage-editingOverlay, .ProfileHeaderCardEditing-editableField, .ColorPicker-hexInput, .BirthdateSelect-button, .BirthdateSelect-selectField, .hovercard, .dropdown-menu, .TwitterCard-container:hover, .profile-social-proof, .message, .modal-content, .modal-header, .missing-tweets-bar, .permalink, .t1-select, .Gallery-content, .caution-btn, .cancel-action {
+  .tweet-box, .new-tweets-bar, .tweet, .stream-footer, .ThreadedConversation-moreReplies, .inline-reply-tweetbox, .follow-button:hover, .ProfileHeading-content, .ProfilePage-editingOverlay, .ProfileHeaderCardEditing-editableField, .ColorPicker-hexInput, .BirthdateSelect-button, .BirthdateSelect-selectField, .hovercard, .dropdown-menu, .TwitterCard-container:hover, .profile-social-proof, .message, .modal-content, .modal-header, .missing-tweets-bar, .permalink, .t1-select, .Gallery-content, .caution-btn, .cancel-action, .dismiss-module {
     background-color: var(--bg-color) !important;
   }
 
@@ -73,7 +73,7 @@
     color: var(--secondary-fg-color) !important;
   }
 
-  .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select, .block-section, .caution-btn, .cancel-action {
+  .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select, .block-section, .caution-btn, .cancel-action, .dismiss-module {
     border: none !important;
   }
 
