@@ -25,15 +25,15 @@
     border-radius: unset !important;
   }
 
-  body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent {
+  body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content {
     background-color: var(--bg-color) !important;
   }
 
-  .linkflairlabel, #header, code, textarea, .morelink a, .link .usertext-body .md, .md pre, .linkinfo, #search input, .infobar, .usertext button, .multi-selector, .multi-list label, .subscribe-button a, .flair, .nextprev a, .expando-button {
+  .linkflairlabel, #header, code, textarea, .morelink a, .link .usertext-body .md, .md pre, .linkinfo, #search input, .infobar, .usertext button, .multi-selector, .multi-list label, .subscribe-button a, .flair, .nextprev a, .expando-button, .reddit-infobar, .modal-content .buttons a, .roundfield, .white-field, .hover-bubble, .md hr {
     background-color: var(--secondary-bg-color) !important;
   }
 
-  body, .unvoted, .md, textarea, .multi-selector .title strong, .multi-list label, .trophy-name, .thing .title, a:hover, .tabmenu li.selected a {
+  body, .unvoted, .md, textarea, .multi-selector .title strong, .multi-list label, .trophy-name, .thing .title, a:hover, .tabmenu li.selected a, .hover-bubble {
     color: var(--fg-color) !important;
   }
 
@@ -41,7 +41,7 @@
     color: var(--secondary-fg-color) !important;
   }
 
-  .nsfw-stamp {
+  .nsfw-stamp, .comment .md a {
     color: var(--highlight-color) !important;
   }
 
@@ -53,11 +53,19 @@
     color: var(--downvote-color) !important;
   }
 
-  .linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, .shortlink input, #search input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator {
+  .linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator, .reddit-infobar, .modal-content .buttons a, .hover-bubble {
     border: none !important;
   }
 
-  .listing-chooser, #sr-header-area, .nub, .multi-selector:before, .multi-selector:after, .rank {
+  textarea {
+    border: 1px solid var(--bg-color) !important;
+  }
+
+  .md th, .md td, .footer, .footer .col, .developed-app, .authorized-app  {
+    border-color: var(--secondary-bg-color) !important;
+  }
+
+  .listing-chooser, #sr-header-area, .nub, .multi-selector:before, .multi-selector:after, .rank, .beta-link, .archived-infobar:before, .interstitial-image, .modal, .users-online:before, .hover-bubble:before, .hover-bubble:after {
     display: none !important;
   }
 
@@ -65,7 +73,7 @@
     padding: 7px;
   }
 
-  .subscribe-button a, .expando-button, .arrow {
+  .subscribe-button a, .expando-button, .arrow, .thumbnail.default, .thumbnail.nsfw, .thumbnail.image, .thumbnail.self, #header-img {
     background-image: none !important;
   }
 
@@ -82,19 +90,34 @@
    border-bottom: 2px solid var(--bg-color) !important;
   }
 
-  .expando-button, .arrow {
+  #header-img, .expando-button, .arrow, .thumbnail.default, .thumbnail.nsfw, .thumbnail.image, .thumbnail.self {
     font-family: "FontAwesome";
+  }
+
+  .expando-button, .arrow, .thumbnail.default, .thumbnail.nsfw, .thumbnail.image, .thumbnail.self, .modal.in {
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: flex !important;
   }
 
   .arrow.down, .arrow.downmod {
     margin-top: unset;
   }
 
+  .modal-dialog, #header-img {
+    margin: unset !important;
+  }
+
   .expando-button {
     font-size: 15px;
+  }
+
+  .thumbnail.default:before, .thumbnail.nsfw:before, .thumbnail.image:before, .thumbnail.self:before {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
   }
 
   .expando-button.video.collapsed:before {
@@ -115,5 +138,38 @@
 
   .arrow.down:before, .arrow.downmod:before {
     content: "\f078";
+  }
+
+  .thumbnail.default:before {
+    content: "\f0c1";
+  }
+
+  .thumbnail.nsfw:before {
+    content: "\f2a8";
+  }
+
+  .thumbnail.image:before {
+    content: "\f03e";
+  }
+
+  .thumbnail.self:before {
+    content: "\f15c";
+  }
+
+  #header-img {
+    text-indent: unset !important;
+    padding: 5px 0px 5px 0px;
+    width: 75px !important;
+    text-align: center;
+    font-size: 0px;
+  }
+
+  #header-img:before {
+    content: "\f281";
+    font-size: 35px;
+  }
+
+  .archived-infobar {
+    padding: 10px !important;
   }
 }
