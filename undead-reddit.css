@@ -73,7 +73,7 @@
     padding: 7px;
   }
 
-  .subscribe-button a, .expando-button, .arrow, .thumbnail.default, .thumbnail.nsfw, .thumbnail.image, .thumbnail.self, #header-img {
+  .subscribe-button a, .expando-button, .arrow, .thumbnail.default, .thumbnail.nsfw, .thumbnail.image, .thumbnail.self, #header-img, video.preview {
     background-image: none !important;
   }
 
