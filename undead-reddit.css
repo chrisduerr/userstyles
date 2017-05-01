@@ -25,7 +25,7 @@
     border-radius: unset !important;
   }
 
-  body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content, .usertext-body {
+  body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content, .usertext-body, .interstitial-subreddit-description {
     background-color: var(--bg-color) !important;
   }
 
