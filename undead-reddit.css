@@ -25,11 +25,11 @@
     border-radius: unset !important;
   }
 
-  body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content, .usertext-body, .interstitial-subreddit-description {
+  body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content, .usertext-body, .interstitial-subreddit-description, .entry {
     background-color: var(--bg-color) !important;
   }
 
-  .linkflairlabel, #header, code, textarea, .morelink a, .link .usertext-body .md, .md pre, .linkinfo, #search input, .infobar, .usertext button, .multi-selector, .multi-list label, .subscribe-button a, .flair, .nextprev a, .expando-button, .reddit-infobar, .modal-content .buttons a, .roundfield, .white-field, .hover-bubble, .md hr, .c-btn-primary, .c-btn-primary:hover, .c-btn-primary:focus, .entry {
+  .linkflairlabel, #header, code, textarea, .morelink a, .link .usertext-body .md, .md pre, .linkinfo, #search input, .infobar, .usertext button, .multi-selector, .multi-list label, .subscribe-button a, .flair, .nextprev a, .expando-button, .reddit-infobar, .modal-content .buttons a, .roundfield, .white-field, .hover-bubble, .md hr, .c-btn-primary, .c-btn-primary:hover, .c-btn-primary:focus {
     background-color: var(--secondary-bg-color) !important;
   }
 
