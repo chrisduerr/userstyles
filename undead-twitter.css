@@ -53,7 +53,7 @@
     border-color: var(--secondary-bg-color) !important;
   }
 
-  .tweet:hover, .follow-button, #tweet-box-home-timeline, .new-tweets-bar:hover, .PermalinkOverlay .tweet-box, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing, .DashboardProfileCard, .ProfileCard, .RetweetDialog-commentBox, .modal-overlay, .AdaptiveFiltersBar, .SidebarFilterModule, .PollXChoice-vote--button, .modal-body, .Tombstone {
+  .tweet:hover, .follow-button, #tweet-box-home-timeline, .new-tweets-bar:hover, .PermalinkOverlay .tweet-box, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing, .DashboardProfileCard, .ProfileCard, .RetweetDialog-commentBox, .modal-overlay, .AdaptiveFiltersBar, .SidebarFilterModule, .PollXChoice-vote--button, .modal-body, .Tombstone, .PollXChoice-choice--chart {
     background-color: var(--secondary-bg-color) !important;
   }
 
