@@ -106,7 +106,7 @@
     display: none !important;
   }
 
-  .guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit {
+  .guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge {
     box-shadow: none !important;
   }
 
@@ -147,5 +147,9 @@
 
   .channel-text.unread:not(.channel-muted):not(.selected)::before {
     width: 8px !important;
+  }
+
+  .badge {
+    padding: 5px 6px 3px 6px !important;
   }
 }
