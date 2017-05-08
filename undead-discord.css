@@ -147,7 +147,7 @@
     height: 100% !important;
   }
 
-  .guild.unread::before {
+  .guild.unread:not(.selected)::before {
     top: 35% !important;
     height: 30% !important;
   }
