@@ -37,7 +37,7 @@
     background-image: none !important;
   }
 
-  .selected.channel .channel-name, .selected.channel .channel-name::before, .guild-channels header:hover span, .channel:hover.channel-voice .channel-name, .comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button {
+  .selected.channel .channel-name, .selected.channel .channel-name::before, .guild-channels header:hover span, .channel:hover.channel-voice .channel-name, .comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button, body {
     color: var(--fg-color) !important;
   }
 
