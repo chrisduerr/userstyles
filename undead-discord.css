@@ -61,7 +61,7 @@
     border-radius: unset !important;
   }
 
-  .avatar-small .status, .avatar-popout .status {
+  .status {
     border-radius: 4px !important;
   }
 
