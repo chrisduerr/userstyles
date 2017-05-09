@@ -17,7 +17,7 @@
     background-color: var(--bg-color) !important;
   }
 
-  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter {
+  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout {
     background-color: var(--secondary-bg-color) !important;
   }
 
@@ -25,7 +25,7 @@
     background-color: var(--darkest-bg-color) !important;
   }
 
-  .divider div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .channel-text.unread:not(.channel-muted):not(.selected)::before {
+  .messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .channel-text.unread:not(.channel-muted):not(.selected)::before {
     background-color: var(--highlight-color) !important;
   }
 
@@ -37,7 +37,7 @@
     background-image: none !important;
   }
 
-  .selected.channel .channel-name, .selected.channel .channel-name::before, .guild-channels header:hover span, .channel:hover.channel-voice .channel-name, .comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter {
+  .selected.channel .channel-name, .selected.channel .channel-name::before, .guild-channels header:hover span, .channel:hover.channel-voice .channel-name, .comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button, body {
     color: var(--fg-color) !important;
   }
 
@@ -53,20 +53,19 @@
     color: var(--secondary-highlight-color) !important;
   }
 
-  /* JUST TO TRY IT OUT FOR NOW */
-  * {
+  *, .guild.unread::before, .guild.selected::before {
     border-radius: unset !important;
   }
 
-  .account .btn-group, .account .btn, .channel-textarea-inner, .embed, .embed-color-pill, .ui-tab-bar-item.selected, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-button.filled, .ui-card, .ui-audit-log-clickable, .ui-search-bar, .search-bar, .themed-popout .header, .themed-popout .message-group, .themed-popout, .message-group .markup pre, .mentioned .message-text::after, .quick-message, .context-menu, .context-menu .item, .user-popout, .user-popout .header, #user-profile-modal, .new-messages-bar, .guild.selected::before, .badge, .comment code.inline, .form-header, .form-actions, .change-nickname-warning, .form .btn-primary, .option-popout, .channel-textarea-autocomplete-inner, .search-bar.search-bar-light .search-bar-inner, .upload-modal, .search-popout .option, .popout, .channel-text.unread:not(.channel-muted):not(.selected)::before {
+  .account .btn-group, .account .btn, .channel-textarea-inner, .embed, .embed-color-pill, .ui-tab-bar-item.selected, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-button.filled, .ui-card, .ui-audit-log-clickable, .ui-search-bar, .search-bar, .themed-popout .header, .themed-popout .message-group, .themed-popout, .message-group .markup pre, .mentioned .message-text::after, .quick-message, .context-menu, .context-menu .item, .user-popout, .user-popout .header, #user-profile-modal, .new-messages-bar, .badge, .comment code.inline, .form-header, .form-actions, .change-nickname-warning, .form .btn-primary, .option-popout, .channel-textarea-autocomplete-inner, .search-bar.search-bar-light .search-bar-inner, .upload-modal, .search-popout .option, .popout, .channel-text.unread:not(.channel-muted):not(.selected)::before {
     border-radius: unset !important;
   }
 
-  .avatar-small .status, .avatar-popout .status {
+  .status {
     border-radius: 4px !important;
   }
 
-  .account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit {
+  .account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit, .has-more button {
     border: unset !important;
   }
 
@@ -138,11 +137,19 @@
     text-decoration: none !important;
   }
 
-  .guild.selected::before {
+  .guild.selected::before, .guild.unread::before {
     margin: unset !important;
-    height: 100% !important;
-    top: unset !important;
     width: 9px !important;
+  }
+
+  .guild.selected::before {
+    top: unset !important;
+    height: 100% !important;
+  }
+
+  .guild.unread:not(.selected)::before {
+    top: 35% !important;
+    height: 30% !important;
   }
 
   .channel-text.unread:not(.channel-muted):not(.selected)::before {
