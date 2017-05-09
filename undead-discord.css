@@ -9,6 +9,18 @@
     --secondary-highlight-color: #ac4142;
   }
 
+    @font-face {
+    font-family: "Font Awesome";
+    font-weight: normal;
+    font-style : normal;
+           src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+           src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  }
+
   .private-channel-recipients-invite .friend, .search-popout .option.selected::after {
     background: unset !important;
   }
@@ -17,7 +29,7 @@
     background-color: var(--bg-color) !important;
   }
 
-  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb {
+  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guilds-wrapper .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb {
     background-color: var(--secondary-bg-color) !important;
   }
 
@@ -45,7 +57,7 @@
     color: var(--fg-color) !important;
   }
 
-  :not(.selected).channel .channel-name, :not(.selected).channel .channel-name::before, .channel-arrow, .chat .topic, #user-profile-modal .discord-tag .discriminator, .btn-item {
+  :not(.selected).channel .channel-name, :not(.selected).channel .channel-name::before, .channel-arrow, .chat .topic, #user-profile-modal .discord-tag .discriminator, .btn-item, .connected-account-verified-icon::before {
     color: var(--secondary-fg-color) !important;
   }
 
@@ -69,7 +81,7 @@
     border-radius: 14px !important;
   }
 
-  .account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit, .has-more button {
+  .account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit, .has-more button, #user-profile-modal .section + .section, #user-profile-modal .connected-account {
     border: unset !important;
   }
 
@@ -166,5 +178,15 @@
 
   .badge {
     padding: 5px 6px 3px 6px !important;
+  }
+
+  .connected-account-verified-icon {
+    background: unset !important;
+  }
+
+  .connected-account-verified-icon::before {
+    font-family: "FontAwesome";
+    font-style: normal;
+    content: "\f058";
   }
 }
