@@ -153,6 +153,10 @@
     opacity: 0.3 !important;
   }
 
+  .scrollbar {
+    overflow-y: hidden !important;
+  }
+
   .title-wrap {
     min-height: 56px !important;
   }
