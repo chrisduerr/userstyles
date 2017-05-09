@@ -125,7 +125,7 @@
     border-left: 3px solid var(--secondary-fg-color) !important;
   }
 
-  .connecting-inner, .tooltip, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after {
+  .connecting-inner, .tooltip, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar button + button {
     display: none !important;
   }
 
