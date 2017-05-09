@@ -13,19 +13,23 @@
     background: unset !important;
   }
 
-  .guild-channels, .messages-wrapper, .chat > .content, .account, .channel-members, .scrollbar, .scrollbar .thumb, .scrollbar::after, .divider-red span, .search-bar, .typing, .connecting, .layer .content-region, .layer .sidebar-region, .layer .pad, .ui-button.filled:hover, .ui-checkbox.checked, .connect-account-btn-inner, .ui-tab-bar-item:active, .connect-account-btn-inner:hover, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .modal-container .scroller-wrap, .modal-container .scrollbar .track, .popout-menu-item:hover, .themed-popout, .messages-popout-wrap .has-more button:hover, .mentioned .message-text, .user-popout .body, .user-popout .footer, #user-profile-modal .scroller, .note textarea:focus, #user-profile-modal .empty, .context-menu, #user-profile-modal .btn.add-friend, .messages-wrapper .scrollbar .track, .context-menu .item-subMenu, .form-inner, .form-header, .form-actions, .form .btn-default, .form .btn-primary:hover, .popout, .channel-textarea-autocomplete-inner, .btn-item:hover, .private-channels, .messages .divider:not(.red) span, #friends, .friends-header, .friends-table, .friends-action, .private-channel-recipients-invite button, .upload-modal, .upload-modal .footer, .upload-modal .button, .upload-modal .button-primary:hover, .emoji-picker .scrollbar .track, .emoji-picker, .emoji-picker .sticky-header, .create-guild-container .join:hover .btn, .create-guild-container, .search-results-wrap, .search-results-wrap .channel-name {
+  .guild-channels, .messages-wrapper, .chat > .content, .account, .channel-members, .scrollbar, .scrollbar .thumb, .scrollbar::after, .divider-red span, .search-bar, .typing, .connecting, .layer .content-region, .layer .sidebar-region, .layer .pad, .ui-button.filled:hover, .ui-checkbox.checked, .connect-account-btn-inner, .ui-tab-bar-item:active, .connect-account-btn-inner:hover, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .modal-container .scroller-wrap, .modal-container .scrollbar .track, .popout-menu-item:hover, .themed-popout, .messages-popout-wrap .has-more button:hover, .mentioned .message-text, .user-popout .body, .user-popout .footer, #user-profile-modal .scroller, .note textarea:focus, #user-profile-modal .empty, .context-menu, #user-profile-modal .btn.add-friend, .messages-wrapper .scrollbar .track, .context-menu .item-subMenu, .form-inner, .form-header, .form-actions, .form .btn-default, .form .btn-primary:hover, .popout, .channel-textarea-autocomplete-inner, .btn-item:hover, .private-channels, .messages .divider:not(.red) span, #friends, .friends-header, .friends-table, .friends-action, .private-channel-recipients-invite button, .upload-modal, .upload-modal .footer, .upload-modal .button, .upload-modal .button-primary:hover, .emoji-picker .scrollbar .track, .emoji-picker, .emoji-picker .sticky-header, .create-guild-container .join:hover .btn, .create-guild-container, .search-results-wrap, .search-results-wrap .channel-name, .ui-switch-checkbox:checked + .ui-switch::before, .emoji-picker .thumb {
     background-color: var(--bg-color) !important;
   }
 
-  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout {
+  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb {
     background-color: var(--secondary-bg-color) !important;
+  }
+
+  .ui-switch::before {
+    background-color: var(--secondary-fg-color) !important;
   }
 
   .guilds-wrapper {
     background-color: var(--darkest-bg-color) !important;
   }
 
-  .messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .channel-text.unread:not(.channel-muted):not(.selected)::before {
+  .messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .channel-text.unread:not(.channel-muted):not(.selected)::before, .ui-switch-checkbox:checked + .ui-switc, .ui-switch-checkbox:checked + .ui-switch {
     background-color: var(--highlight-color) !important;
   }
 
@@ -53,16 +57,16 @@
     color: var(--secondary-highlight-color) !important;
   }
 
-  *, .guild.unread::before, .guild.selected::before {
-    border-radius: unset !important;
-  }
-
-  .account .btn-group, .account .btn, .channel-textarea-inner, .embed, .embed-color-pill, .ui-tab-bar-item.selected, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-button.filled, .ui-card, .ui-audit-log-clickable, .ui-search-bar, .search-bar, .themed-popout .header, .themed-popout .message-group, .themed-popout, .message-group .markup pre, .mentioned .message-text::after, .quick-message, .context-menu, .context-menu .item, .user-popout, .user-popout .header, #user-profile-modal, .new-messages-bar, .badge, .comment code.inline, .form-header, .form-actions, .change-nickname-warning, .form .btn-primary, .option-popout, .channel-textarea-autocomplete-inner, .search-bar.search-bar-light .search-bar-inner, .upload-modal, .search-popout .option, .popout, .channel-text.unread:not(.channel-muted):not(.selected)::before {
+  *, .guild.unread::before, .guild.selected::before, .channel-text.unread:not(.selected):not(.channel-muted)::before, .scrollbar .thumb::after {
     border-radius: unset !important;
   }
 
   .status {
-    border-radius: 4px !important;
+    border-radius: 33% !important;
+  }
+
+  .ui-switch {
+    border-radius: 14px !important;
   }
 
   .account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit, .has-more button {
@@ -89,6 +93,10 @@
     border: 1px solid var(--bg-color) !important;
   }
 
+  .avatar-popout .status {
+    border: 3px solid var(--secondary-bg-color) !important;
+  }
+
   .mentioned .message-text::after {
     border-left: 2px solid var(--highlight-color) !important;
   }
@@ -105,7 +113,7 @@
     display: none !important;
   }
 
-  .guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge {
+  .guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge, .avatar-popout .status {
     box-shadow: none !important;
   }
 
