@@ -69,7 +69,11 @@
     color: var(--secondary-highlight-color) !important;
   }
 
-  *, .guild.unread::before, .guild.selected::before, .channel-text.unread:not(.selected):not(.channel-muted)::before, .scrollbar .thumb::after {
+  .badge {
+    color: var(--bg-color) !important;
+  }
+
+  *, .guild.unread::before, .guild.selected::before, .channel-text.unread:not(.selected):not(.channel-muted)::before, .scrollbar .thumb::after, .mentioned .message-text::after {
     border-radius: unset !important;
   }
 
