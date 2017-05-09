@@ -65,7 +65,7 @@
     border-color: var(--secondary-bg-color) !important;
   }
 
-  .listing-chooser, #sr-header-area, .nub, .multi-selector:before, .multi-selector:after, .rank, .beta-link, .archived-infobar:before, .interstitial-image, .modal, .users-online:before, .hover-bubble:before, .hover-bubble:after {
+  .listing-chooser, #sr-header-area, .nub, .multi-selector:before, .multi-selector:after, .rank, .beta-link, .archived-infobar:before, .interstitial-image, .modal, .users-online:before, .hover-bubble:before, .hover-bubble:after, .goldvertisement {
     display: none !important;
   }
 
