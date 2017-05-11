@@ -99,11 +99,11 @@
     border-color: var(--highlight-color) !important;
   }
 
-  .popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before {
+  .popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status {
     border-color: var(--bg-color) !important;
   }
 
-  .themed-popout, .messages-popout-wrap .has-more button:hover, .avatar-profile .status, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span {
+  .themed-popout, .messages-popout-wrap .has-more button:hover, .avatar-profile .status, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status {
     border-color: var(--secondary-bg-color) !important;
   }
 
