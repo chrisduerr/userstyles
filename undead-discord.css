@@ -77,8 +77,14 @@
     border-radius: unset !important;
   }
 
+  /* .status needs to be before .status-typing */
+
   .status {
     border-radius: 33% !important;
+  }
+
+  .status-typing {
+    border-radius: 4px !important;
   }
 
   .ui-switch {
