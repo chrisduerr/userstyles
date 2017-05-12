@@ -65,12 +65,16 @@
     color: var(--highlight-color) !important;
   }
 
-  .fullname, .QuoteTweet-fullname, #tweet-box-home-timeline, .tweet, .SummaryCard-content, .tweet-content, .follow-button, div[contenteditable="true"]:focus, .tweet-btn, .ProfileHeading-toggleItem.is-active, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing-editableField, .tweet-text, .typeahead strong, .DashboardProfileCard, .ColorPicker-hexInput:focus, .cancel-action {
+  .fullname, .QuoteTweet-fullname, #tweet-box-home-timeline, .tweet, .SummaryCard-content, .tweet-content, .follow-button, div[contenteditable="true"]:focus, .ProfileHeading-toggleItem.is-active, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileHeaderCardEditing-editableField, .tweet-text, .typeahead strong, .DashboardProfileCard, .ColorPicker-hexInput:focus, .cancel-action {
     color: var(--fg-color) !important;
   }
 
   .message, .ProfileHeaderCard .u-dir {
     color: var(--secondary-fg-color) !important;
+  }
+
+  .tweet-btn {
+    color: var(--bg-color) !important;
   }
 
   .RichEditor, .stream-item, .stats, .avatar-row a, .timeline-tweet-box, .ProfileHeading-content, .edit-button, .ProfilePage-cancelButton, .ProfilePage-saveButton, .ProfileAvatar, .ProfileAvatarEditing, .ProfileHeaderCardEditing-editableField, .BirthdateSelect-button, .BirthdateSelect-selectField, .ProfileCard-avatarImage, .user-dropdown:focus, .DashboardProfileCard-avatarImage, .DashboardProfileCard-bg, .DashboardProfileCard, .ProfileCard, .ProfileCard-bg, .modal-header, .SidebarFilterModule, .t1-select, .block-section, .caution-btn, .cancel-action, .dismiss-module, .Tombstone {
