@@ -37,7 +37,7 @@
     color: var(--fg-color) !important;
   }
 
-  .md blockquote, .flair, a, .c-btn-primary:hover, .c-btn-primary:focus {
+  .md blockquote, .flair, a, .c-btn-primary:hover, .c-btn-primary:focus, .title > a:visited {
     color: var(--secondary-fg-color) !important;
   }
 
