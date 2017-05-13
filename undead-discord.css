@@ -21,7 +21,7 @@
                  url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   }
 
-  .private-channel-recipients-invite .friend, .search-popout .option.selected::after, .friend-table-add-header, .search-popout .option::after, .connected-account-verified-icon {
+  .private-channel-recipients-invite .friend, .search-popout .option.selected::after, .friend-table-add-header, .search-popout .option::after, .connected-account-verified-icon, .channel-text:hover, .channel.private:hover {
     background: unset !important;
   }
 
