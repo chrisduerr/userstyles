@@ -95,7 +95,7 @@
     border-color: var(--highlight-color) !important;
   }
 
-  .popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner {
+  .popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status {
     border-color: var(--bg-color) !important;
   }
 
