@@ -1,253 +1,262 @@
-@-moz-document domain("discordapp.com") {
-  :root {
-    --bg-color: #1b1b1b;
-    --fg-color: #9e9e9e;
-    --secondary-bg-color: #262626;
-    --secondary-fg-color: #616161;
-    --darkest-bg-color: #121212;
-    --highlight-color: #752a2a;
-    --secondary-highlight-color: #ac4142;
-  }
+:root {
+  --bg-color: #1b1b1b;
+  --fg-color: #9e9e9e;
+  --secondary-bg-color: #262626;
+  --secondary-fg-color: #616161;
+  --darkest-bg-color: #121212;
+  --highlight-color: #752a2a;
+  --secondary-highlight-color: #ac4142;
+}
 
-    @font-face {
-    font-family: "FontAwesome";
-    font-weight: normal;
-    font-style : normal;
-           src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
-           src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
-                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
-                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
-                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
-                 url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
-  }
+  @font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style : normal;
+         src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+         src : url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+               url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
 
-  .private-channel-recipients-invite .friend, .search-popout .option.selected::after, .friend-table-add-header, .search-popout .option::after, .connected-account-verified-icon, .channel-text:hover, .channel.private:hover, .channel-arrow, .user-popout .header, #user-profile-modal .header, #user-profile-modal .guild:hover, .channel-members .member:hover, .clipboard-input-copied button {
-    background: unset !important;
-  }
+.private-channel-recipients-invite .friend, .search-popout .option.selected::after, .friend-table-add-header, .search-popout .option::after, .connected-account-verified-icon, .channel-text:hover, .channel.private:hover, .channel-arrow, .user-popout .header, #user-profile-modal .header, #user-profile-modal .guild:hover, .channel-members .member:hover, .clipboard-input-copied button, .is-local-bot-message {
+  background: unset !important;
+}
 
-  .guild-channels, .messages-wrapper, .chat > .content, .account, .channel-members, .scrollbar, .scrollbar .thumb, .scrollbar::after, .divider-red span, .search-bar, .typing, .connecting, .layer .content-region, .layer .sidebar-region, .layer .pad, .ui-button.filled:hover, .ui-checkbox.checked, .connect-account-btn-inner, .ui-tab-bar-item:active, .connect-account-btn-inner:hover, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .modal-container .scroller-wrap, .modal-container .scrollbar .track, .popout-menu-item:hover, .themed-popout, .messages-popout-wrap .has-more button:hover, .mentioned .message-text, .user-popout .body, .user-popout .footer, #user-profile-modal .scroller, .note textarea:focus, #user-profile-modal .empty, .context-menu, #user-profile-modal .btn.add-friend, .messages-wrapper .scrollbar .track, .context-menu .item-subMenu, .form-inner, .form-header, .form-actions, .form .btn-default, .form .btn-primary:hover, .popout, .channel-textarea-autocomplete-inner, .btn-item:hover, .private-channels, .messages .divider:not(.red) span, #friends, .friends-header, .friends-table, .friends-action, .private-channel-recipients-invite button, .upload-modal, .upload-modal .footer, .upload-modal .button, .upload-modal .button-primary:hover, .emoji-picker .scrollbar .track, .emoji-picker, .emoji-picker .sticky-header, .create-guild-container .join:hover .btn, .create-guild-container, .search-results-wrap, .search-results-wrap .channel-name, .ui-switch-checkbox:checked + .ui-switch::before, .emoji-picker .thumb, .private-channels .track, #friends .btn:hover, .add-friend-input-wrapper, .react-datepicker__day--disabled, .react-datepicker__day--outside-month, .Select-option.is-focused, .instant-invite-modal, .invite-button-icon, .deprecated-settings-modal .settings-inner, .deprecated-settings-modal .settings-actions, .ui-popout-list .ui-selectable-item:hover, .ui-standard-sidebar-view .btn-close, .checkbox-inner span, .slider-handle span, .region-select button:hover, .region-select-modal, .region-select-modal-option:hover, .jump-button, .messages-wrapper .comment div, ::-webkit-scrollbar-track-piece {
-    background-color: var(--bg-color) !important;
-  }
+.guild-channels, .messages-wrapper, .chat > .content, .account, .channel-members, .scrollbar, .scrollbar .thumb, .scrollbar::after, .divider-red span, .search-bar, .typing, .connecting, .layer .content-region, .layer .sidebar-region, .layer .pad, .ui-button.filled:hover, .ui-checkbox.checked, .connect-account-btn-inner, .ui-tab-bar-item:active, .connect-account-btn-inner:hover, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .modal-container .scroller-wrap, .modal-container .scrollbar .track, .popout-menu-item:hover, .themed-popout, .messages-popout-wrap .has-more button:hover, .mentioned .message-text, .user-popout .body, .user-popout .footer, #user-profile-modal .scroller, .note textarea:focus, #user-profile-modal .empty, .context-menu, #user-profile-modal .btn.add-friend, .messages-wrapper .scrollbar .track, .context-menu .item-subMenu, .form-inner, .form-header, .form-actions, .form .btn-default, .form .btn-primary:hover, .popout, .channel-textarea-autocomplete-inner, .btn-item:hover, .private-channels, .messages .divider:not(.red) span, #friends, .friends-header, .friends-table, .friends-action, .private-channel-recipients-invite button, .upload-modal, .upload-modal .footer, .upload-modal .button, .upload-modal .button-primary:hover, .emoji-picker .scrollbar .track, .emoji-picker, .emoji-picker .sticky-header, .create-guild-container .join:hover .btn, .create-guild-container, .search-results-wrap, .search-results-wrap .channel-name, .ui-switch-checkbox:checked + .ui-switch::before, .emoji-picker .thumb, .private-channels .track, #friends .btn:hover, .add-friend-input-wrapper, .react-datepicker__day--disabled, .react-datepicker__day--outside-month, .Select-option.is-focused, .instant-invite-modal, .invite-button-icon, .deprecated-settings-modal .settings-inner, .deprecated-settings-modal .settings-actions, .ui-popout-list .ui-selectable-item:hover, .ui-standard-sidebar-view .btn-close, .checkbox-inner span, .slider-handle span, .region-select button:hover, .region-select-modal, .region-select-modal-option:hover, .jump-button, .messages-wrapper .comment div {
+  background-color: var(--bg-color) !important;
+}
 
-  .channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guilds-wrapper .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb, .private-channels .thumb, .icon-friends, #friends .btn, .bot-tag, .search-popout .date-picker .hint-value, .react-datepicker__header, .react-datepicker, .Select-control, .Select-menu-outer, #instant-invite-modal .clipboard-input-inner input, #instant-invite-modal .copy, .invite-button, .radio-inner, .ui-popout-list, .ui-popout-list .scrollbar .pad, .ui-popout-list .scrollbar .track, .ui-audit-log .header, .ui-hover-card::before, .slider-handle, .guilds-add, .join-server input, .region-select-inner, .region-select button, .avatar-uploader-inner, .region-select-modal-option, .jump-button:hover, ::-webkit-scrollbar-thumb {
-    background-color: var(--secondary-bg-color) !important;
-  }
+.channel-text.selected a, :not(.selected).channel-text:hover a, .guild-header > header, .chat > .title-wrap, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .ui-switch, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .user-popout .header, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guilds-wrapper .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb, .private-channels .thumb, .icon-friends, #friends .btn, .bot-tag, .search-popout .date-picker .hint-value, .react-datepicker__header, .react-datepicker, .Select-control, .Select-menu-outer, #instant-invite-modal .clipboard-input-inner input, #instant-invite-modal .copy, .invite-button, .radio-inner, .ui-popout-list, .ui-popout-list .scrollbar .pad, .ui-popout-list .scrollbar .track, .ui-audit-log .header, .ui-hover-card::before, .slider-handle, .guilds-add, .join-server input, .region-select-inner, .region-select button, .avatar-uploader-inner, .region-select-modal-option, .jump-button:hover {
+  background-color: var(--secondary-bg-color) !important;
+}
 
-  .ui-switch::before, .slider-bar {
-    background-color: var(--secondary-fg-color) !important;
-  }
+.ui-switch::before, .slider-bar {
+  background-color: var(--secondary-fg-color) !important;
+}
 
-  .guilds-wrapper {
-    background-color: var(--darkest-bg-color) !important;
-  }
+.guilds-wrapper {
+  background-color: var(--darkest-bg-color) !important;
+}
 
-  .messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .channel-text.unread:not(.channel-muted):not(.selected)::before, .ui-switch-checkbox:checked + .ui-switc, .ui-switch-checkbox:checked + .ui-switch, .react-datepicker__day--today::after, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .invite-button-icon.accepted, .radio-inner span::after, .ui-popout-list .ui-selectable-item.selected, .slider-bar-fill {
-    background-color: var(--highlight-color) !important;
-  }
+.messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .channel-text.unread:not(.channel-muted):not(.selected)::before, .ui-switch-checkbox:checked + .ui-switc, .ui-switch-checkbox:checked + .ui-switch, .react-datepicker__day--today::after, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .invite-button-icon.accepted, .radio-inner span::after, .ui-popout-list .ui-selectable-item.selected, .slider-bar-fill {
+  background-color: var(--highlight-color) !important;
+}
 
-  .message-group .mention, .emoji-picker .dimmer.visible, .countdown-number, .channel-rrow:hover {
-    background-color: #00000000 !important;
-  }
+.message-group .mention, .emoji-picker .dimmer.visible, .countdown-number, .channel-rrow:hover {
+  background-color: #00000000 !important;
+}
 
-  .selected.channel .channel-name, .selected.channel .channel-name::before, .guild-channels header:hover span, .channel:hover.channel-voice .channel-name, .comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button, body, .search-popout .date-picker .hint-value, .react-datepicker__day-name, .react-datepicker__current-month, .react-datepicker__day, .search-popout .option strong, .Select-placeholder, .Select-option, #instant-invite-modal .blurb, #instant-invite-modal .copy, #instant-invite-modal .clipboard-input-inner input, .deprecated-settings-modal .content label, .deprecated-settings-modal .content label::before, .control-group label, .notification-settings-modal-channel-settings-header label, .channel-arrow:hover, .slider-handle span, .guilds-add:hover, .join-server input, .create-guild-container h5, .create-guild-container #guild-name, .region-select button, .avatar-uploader-inner > *, .region-select-modal-header, .jump-button, .quick-message {
-    color: var(--fg-color) !important;
-  }
+.selected.channel .channel-name, .selected.channel .channel-name::before, .guild-channels header:hover span, .channel:hover.channel-voice .channel-name, .comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button, body, .search-popout .date-picker .hint-value, .react-datepicker__day-name, .react-datepicker__current-month, .react-datepicker__day, .search-popout .option strong, .Select-placeholder, .Select-option, #instant-invite-modal .blurb, #instant-invite-modal .copy, #instant-invite-modal .clipboard-input-inner input, .deprecated-settings-modal .content label, .deprecated-settings-modal .content label::before, .control-group label, .notification-settings-modal-channel-settings-header label, .channel-arrow:hover, .slider-handle span, .guilds-add:hover, .join-server input, .create-guild-container h5, .create-guild-container #guild-name, .region-select button, .avatar-uploader-inner > *, .region-select-modal-header, .jump-button, .quick-message {
+  color: var(--fg-color) !important;
+}
 
-  :not(.selected).channel .channel-name, :not(.selected).channel .channel-name::before, .channel-arrow, .chat .topic, #user-profile-modal .discord-tag .discriminator, .btn-item, .connected-account-verified-icon::before, .react-datepicker__day--disabled, .guilds-add, .region-select-name {
-    color: var(--secondary-fg-color) !important;
-  }
+:not(.selected).channel .channel-name, :not(.selected).channel .channel-name::before, .channel-arrow, .chat .topic, #user-profile-modal .discord-tag .discriminator, .btn-item, .connected-account-verified-icon::before, .react-datepicker__day--disabled, .guilds-add, .region-select-name {
+  color: var(--secondary-fg-color) !important;
+}
 
-  .divider-red span {
-    color: var(--highlight-color) !important;
-  }
+.divider-red span {
+  color: var(--highlight-color) !important;
+}
 
-  .message-group a, .message-group .mention, .form header, .form label a, .form-header header, .join-server .sample-link {
-    color: var(--secondary-highlight-color) !important;
-  }
+.message-group a, .message-group .mention, .form header, .form label a, .form-header header, .join-server .sample-link {
+  color: var(--secondary-highlight-color) !important;
+}
 
-  .badge, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .ui-popout-list .ui-selectable-item.selected {
-    color: var(--bg-color) !important;
-  }
+.badge, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .ui-popout-list .ui-selectable-item.selected {
+  color: var(--bg-color) !important;
+}
 
-  *, .guild.unread::before, .guild.selected::before, .channel-text.unread:not(.selected):not(.channel-muted)::before, .scrollbar .thumb::after, .mentioned .message-text::after, .ui-hover-card::before, ::-webkit-scrollbar-thumb {
-    border-radius: unset !important;
-  }
+*, .guild.unread::before, .guild.selected::before, .channel-text.unread:not(.selected):not(.channel-muted)::before, .scrollbar .thumb::after, .mentioned .message-text::after, .ui-hover-card::before {
+  border-radius: unset !important;
+}
 
-  /* .status needs to be before .status-typing */
+/* .status needs to be before .status-typing */
 
-  .status {
-    border-radius: 33% !important;
-  }
+.status {
+  border-radius: 33% !important;
+}
 
-  .status-typing {
-    border-radius: 4px !important;
-  }
+.status-typing {
+  border-radius: 4px !important;
+}
 
-  .ui-switch {
-    border-radius: 14px !important;
-  }
+.ui-switch {
+  border-radius: 14px !important;
+}
 
-  .account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit, .has-more button, #user-profile-modal .section + .section, #user-profile-modal .connected-account, .search-popout .search-query, .react-datepicker__navigation, .react-datepicker__current-month, .date-picker, .search-popout .date-picker-hint, .Select-control, .clipboard-input-inner, .invite-button, .invite-button-icon, .countdown-number, .deprecated-settings-modal .settings-actions, .ui-hover-card::before, .ui-standard-sidebar-view .btn-close, .join-server input, .region-select-inner, ::-webkit-scrollbar-track-piece {
-    border: unset !important;
-  }
+.account .btn, .channel-textarea-inner, .embed, .title-wrap, .ui-checkbox.checked, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .ui-audit-log-clickable, .themed-popout .message-group, .message-group .markup pre, .user-popout .footer, .quick-message, .form-header, .form-actions, .form .btn-default, .option-popout, .upload-modal .inner, .search-results-wrap .search-result .hit, .has-more button, #user-profile-modal .section + .section, #user-profile-modal .connected-account, .search-popout .search-query, .react-datepicker__navigation, .react-datepicker__current-month, .date-picker, .search-popout .date-picker-hint, .Select-control, .clipboard-input-inner, .invite-button, .invite-button-icon, .countdown-number, .deprecated-settings-modal .settings-actions, .ui-hover-card::before, .ui-standard-sidebar-view .btn-close, .join-server input, .region-select-inner {
+  border: unset !important;
+}
 
-  .ui-text-input .input, .ui-radiogroup .ui-card.checked, .user-popout .avatar-popout, input#nickname:focus, .checkbox input[type="checkbox"]:checked + span, .upload-modal .icon.image, .emoji-picker .selected, .invite-button-icon::before {
-    border-color: var(--highlight-color) !important;
-  }
+.ui-text-input .input, .ui-radiogroup .ui-card.checked, .user-popout .avatar-popout, input#nickname:focus, .checkbox input[type="checkbox"]:checked + span, .upload-modal .icon.image, .emoji-picker .selected, .invite-button-icon::before {
+  border-color: var(--highlight-color) !important;
+}
 
-  .guilds-add, .create-guild-container #guild-name:focus, .avatar-uploader-inner {
-    border-color: var(--secondary-fg-color) !important;
-  }
+.guilds-add, .create-guild-container #guild-name:focus, .avatar-uploader-inner {
+  border-color: var(--secondary-fg-color) !important;
+}
 
-  .guilds-add:hover {
-    border-color: var(--fg-color) !important;
-  }
+.guilds-add:hover {
+  border-color: var(--fg-color) !important;
+}
 
-  .popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status, .slider-handle, ::-webkit-scrollbar-thumb {
-    border-color: var(--bg-color) !important;
-  }
+.popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status, .slider-handle {
+  border-color: var(--bg-color) !important;
+}
 
-  .themed-popout, .messages-popout-wrap .has-more button:hover, .avatar-profile .status, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option {
-    border-color: var(--secondary-bg-color) !important;
-  }
+.themed-popout, .messages-popout-wrap .has-more button:hover, .avatar-profile .status, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option {
+  border-color: var(--secondary-bg-color) !important;
+}
 
-  .ui-button.filled:hover, .form .btn-primary:hover, .private-channel-recipients-invite button, .friends-action, .upload-modal .button-primary:hover, #friends .btn:hover, .region-select button {
-    border: 1px solid var(--secondary-bg-color) !important;
-  }
+.ui-button.filled:hover, .form .btn-primary:hover, .private-channel-recipients-invite button, .friends-action, .upload-modal .button-primary:hover, #friends .btn:hover, .region-select button {
+  border: 1px solid var(--secondary-bg-color) !important;
+}
 
-  .connect-account-btn-inner:hover, .ui-button.filled, #user-profile-modal .btn.add-friend:hover, .form .btn-primary, .private-channel-recipients-invite button:hover, .friends-action:hover, .upload-modal .button-primary, #friends .btn, .jump-button {
-    border: 1px solid var(--bg-color) !important;
-  }
+.connect-account-btn-inner:hover, .ui-button.filled, #user-profile-modal .btn.add-friend:hover, .form .btn-primary, .private-channel-recipients-invite button:hover, .friends-action:hover, .upload-modal .button-primary, #friends .btn, .jump-button {
+  border: 1px solid var(--bg-color) !important;
+}
 
-  .avatar-popout .status {
-    border: 3px solid var(--secondary-bg-color) !important;
-  }
+.avatar-popout .status {
+  border: 3px solid var(--secondary-bg-color) !important;
+}
 
-  .mentioned .message-text::after {
-    border-left: 2px solid var(--highlight-color) !important;
-  }
+.mentioned .message-text::after {
+  border-left: 2px solid var(--highlight-color) !important;
+}
 
-  .channel.selected::before {
-    border-left: 3px solid var(--highlight-color) !important;
-  }
+.channel.selected::before {
+  border-left: 3px solid var(--highlight-color) !important;
+}
 
-  :not(.selected).channel:before {
-    border-left: 3px solid var(--secondary-fg-color) !important;
-  }
+:not(.selected).channel:before {
+  border-left: 3px solid var(--secondary-fg-color) !important;
+}
 
-  .connecting-inner, .tooltip, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar .separator + button + button, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice {
-    display: none !important;
-  }
+.connecting-inner, .tooltip, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar .separator + button + button, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice {
+  display: none !important;
+}
 
-  .guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge, .avatar-popout .status, .notification-settings-modal-channel-settings-list {
-    box-shadow: none !important;
-  }
+.guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge, .avatar-popout .status, .notification-settings-modal-channel-settings-list, .is-local-bot-message {
+  box-shadow: none !important;
+}
 
-  :not(.selected).channel a, .private-channels .channel-name {
-    opacity: unset !important;
-  }
+:not(.selected).channel a, .private-channels .channel-name {
+  opacity: unset !important;
+}
 
-  .divider div {
-    opacity: 0.75 !important;
-  }
+.divider div {
+  opacity: 0.75 !important;
+}
 
-  .header-toolbar button.active span {
-    opacity: 0.5 !important;
-  }
+.header-toolbar button.active span {
+  opacity: 0.5 !important;
+}
 
-  .header-toolbar button span {
-    opacity: 0.3 !important;
-  }
+.header-toolbar button span {
+  opacity: 0.3 !important;
+}
 
-  .ui-radiogroup .ui-card.checked polyline {
-    stroke: var(--highlight-color) !important;
-  }
+.ui-radiogroup .ui-card.checked polyline {
+  stroke: var(--highlight-color) !important;
+}
 
-  .ui-popout-list polyline {
-    stroke: var(--bg-color) !important;
-  }
+.ui-popout-list polyline {
+  stroke: var(--bg-color) !important;
+}
 
-  .ui-standard-sidebar-view .btn-close path {
-    fill: var(--secondary-fg-color) !important;
-  }
+.ui-standard-sidebar-view .btn-close path {
+  fill: var(--secondary-fg-color) !important;
+}
 
-  .ui-standard-sidebar-view .btn-close:hover path {
-    fill: var(--fg-color) !important;
-  }
+.ui-standard-sidebar-view .btn-close:hover path {
+  fill: var(--fg-color) !important;
+}
 
-  .channel-arrow {
-    text-align: center !important;
-  }
+.channel-arrow {
+  text-align: center !important;
+}
 
-  .change-log .scrollbar {
-    overflow-y: hidden !important;
-  }
+.change-log .scrollbar {
+  overflow-y: hidden !important;
+}
 
-  .title-wrap {
-    min-height: 56px !important;
-  }
+.title-wrap {
+  min-height: 56px !important;
+}
 
-  .upload-modal .button:hover {
-    text-decoration: none !important;
-  }
+.upload-modal .button:hover {
+  text-decoration: none !important;
+}
 
-  .guild.selected::before, .guild.unread::before {
-    margin: unset !important;
-    width: 9px !important;
-  }
+.guild.selected::before, .guild.unread::before {
+  margin: unset !important;
+  width: 9px !important;
+}
 
-  .guild.selected::before {
-    top: unset !important;
-    height: 100% !important;
-  }
+.guild.selected::before {
+  top: unset !important;
+  height: 100% !important;
+}
 
-  .guild.unread:not(.selected)::before {
-    top: 35% !important;
-    height: 30% !important;
-  }
+.guild.unread:not(.selected)::before {
+  top: 35% !important;
+  height: 30% !important;
+}
 
-  .channel-text.unread:not(.channel-muted):not(.selected)::before {
-    width: 8px !important;
-  }
+.channel-text.unread:not(.channel-muted):not(.selected)::before {
+  width: 8px !important;
+}
 
-  .badge {
-    padding: 5px 6px 3px 6px !important;
-  }
+.badge {
+  padding: 5px 6px 3px 6px !important;
+}
 
-  .connected-account-verified-icon::before, .channel-arrow::before {
-    font-family: "FontAwesome";
-  }
+.connected-account-verified-icon::before, .channel-arrow::before {
+  font-family: "FontAwesome";
+}
 
-  .connected-account-verified-icon::before {
-    font-style: normal;
-    content: "\f058";
-  }
+.connected-account-verified-icon::before {
+  font-style: normal;
+  content: "\f058";
+}
 
-  .channel-arrow::before {
-    content: "\f054";
-  }
+.channel-arrow::before {
+  content: "\f054";
+}
 
-  .search-popout {
-    left: calc(100vw - 325px) !important;
-    transform: unset !important;
-  }
+.search-popout {
+  left: calc(100vw - 325px) !important;
+  transform: unset !important;
+}
 
-  .react-datepicker__day--outside-month {
-    font-weight: unset !important;
-  }
+.react-datepicker__day--outside-month {
+  font-weight: unset !important;
+}
 
-  #instant-invite-modal, #instant-invite-modal-advanced {
-    width: 500px !important;
-  }
+#instant-invite-modal, #instant-invite-modal-advanced {
+  width: 500px !important;
+}
 
-  /* Don't ask me why but this needs two separate statements */
-  ::-moz-selection {
-    background-color: var(--highlight-color) !important;
-    color: var(--bg-color) !important;
-  }
+/* Don't ask me why but this needs two separate statements */
+::-moz-selection {
+  background-color: var(--highlight-color) !important;
+  color: var(--bg-color) !important;
+}
 
-  ::selection {
-    background-color: var(--highlight-color) !important;
-    color: var(--bg-color) !important;
-  }
+::selection {
+  background-color: var(--highlight-color) !important;
+  color: var(--bg-color) !important;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: var(--bg-color) !important;
+  border: unset !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-bg-color) !important;
+  border-radius: unset !important;
+  border-color: var(--bg-color) !important;
 }
