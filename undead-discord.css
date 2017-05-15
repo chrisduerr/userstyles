@@ -130,7 +130,7 @@
   border-left: 3px solid var(--secondary-fg-color) !important;
 }
 
-.connecting-inner, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar .separator + button + button, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice {
+.connecting-inner, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar .separator + button + button, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice, .tooltip::after {
   display: none !important;
 }
 
