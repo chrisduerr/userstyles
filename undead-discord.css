@@ -106,20 +106,16 @@
   border-color: var(--bg-color) !important;
 }
 
-.themed-popout, .messages-popout-wrap .has-more button:hover, .avatar-profile .status, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option {
+.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option {
   border-color: var(--secondary-bg-color) !important;
 }
 
-.ui-button.filled:hover, .form .btn-primary:hover, .private-channel-recipients-invite button, .friends-action, .upload-modal .button-primary:hover, #friends .btn:hover, .region-select button {
+.ui-button.filled:hover, .form .btn-primary:hover, .private-channel-recipients-invite button, .friends-action, .upload-modal .button-primary:hover, #friends .btn:hover, .region-select button, .avatar-profile .status, .avatar-popout .status {
   border: 1px solid var(--secondary-bg-color) !important;
 }
 
 .connect-account-btn-inner:hover, .ui-button.filled, #user-profile-modal .btn.add-friend:hover, .form .btn-primary, .private-channel-recipients-invite button:hover, .friends-action:hover, .upload-modal .button-primary, #friends .btn, .jump-button, .ui-settings-notice, .tooltip {
   border: 1px solid var(--bg-color) !important;
-}
-
-.avatar-popout .status {
-  border: 3px solid var(--secondary-bg-color) !important;
 }
 
 .mentioned .message-text::after {
@@ -134,7 +130,7 @@
   border-left: 3px solid var(--secondary-fg-color) !important;
 }
 
-.connecting-inner, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar .separator + button + button, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice, .tooltip::after {
+.connecting-inner, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .header-toolbar .separator + button + button, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice {
   display: none !important;
 }
 
@@ -188,6 +184,18 @@
 
 .upload-modal .button:hover {
   text-decoration: none !important;
+}
+
+.avatar-profile .status {
+  height: 20px !important;
+  width: 20px !important;
+  margin: 3px !important;
+}
+
+.avatar-popout .status {
+  height: 15px !important;
+  width: 15px !important;
+  margin: 2px !important;
 }
 
 .guild.selected::before, .guild.unread::before {
