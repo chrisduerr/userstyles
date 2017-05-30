@@ -102,11 +102,11 @@
   border-color: var(--fg-color) !important;
 }
 
-.popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status, .slider-handle {
+.popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status, .slider-handle, .private-channels .status {
   border-color: var(--bg-color) !important;
 }
 
-.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option, #rtc-connection-popout hr {
+.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option, #rtc-connection-popout hr, .private-channels .channel:hover .status, .private-channels .channel.selected .status {
   border-color: var(--secondary-bg-color) !important;
 }
 
