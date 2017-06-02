@@ -90,7 +90,7 @@
   border: unset !important;
 }
 
-.ui-text-input .input, .ui-radiogroup .ui-card.checked, .user-popout .avatar-popout, input#nickname:focus, .checkbox input[type="checkbox"]:checked + span, .upload-modal .icon.image, .emoji-picker .selected, .invite-button-icon::before {
+.ui-text-input .input, .ui-radiogroup .ui-card.checked, .user-popout .avatar-popout, input#nickname:focus, .checkbox input[type="checkbox"]:checked + span, .upload-modal .icon.image, .emoji-picker .selected, .invite-button-icon::before, .invite-button-icon.expired::after {
   border-color: var(--highlight-color) !important;
 }
 
