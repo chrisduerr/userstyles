@@ -40,7 +40,7 @@
   background-color: var(--darkest-bg-color) !important;
 }
 
-.messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .ui-switch-checkbox:checked + .ui-switc, .ui-switch-checkbox:checked + .ui-switch, .react-datepicker__day--today::after, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .invite-button-icon.accepted, .radio-inner span::after, .ui-popout-list .ui-selectable-item.selected, .slider-bar-fill, .unread-23Kvxk {
+.messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .ui-switch-checkbox:checked + .ui-switc, .ui-switch-checkbox:checked + .ui-switch, .react-datepicker__day--today::after, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .invite-button-icon.accepted, .radio-inner span::after, .ui-popout-list .ui-selectable-item.selected, .slider-bar-fill, .unread-23Kvxk, .wrapper-2xO9RX {
   background-color: var(--highlight-color) !important;
 }
 
@@ -64,7 +64,7 @@
   color: var(--secondary-highlight-color) !important;
 }
 
-.badge, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .ui-popout-list .ui-selectable-item.selected {
+.badge, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .ui-popout-list .ui-selectable-item.selected, .wrapper-2xO9RX {
   color: var(--bg-color) !important;
 }
 
@@ -138,7 +138,7 @@
   visibility: hidden !important;
 }
 
-.guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge, .avatar-popout .status, .notification-settings-modal-channel-settings-list, .is-local-bot-message {
+.guild-header header, .title-wrap, .messages-popout .action-buttons, .search-results-wrap .search-result .hit, .badge, .avatar-popout .status, .notification-settings-modal-channel-settings-list, .is-local-bot-message, .wrapper-2xO9RX:wq {
   box-shadow: none !important;
 }
 
@@ -219,10 +219,6 @@
 .guild.unread:not(.selected)::before {
   top: 35% !important;
   height: 30% !important;
-}
-
-.badge {
-  padding: 5px 6px 3px 6px !important;
 }
 
 .connected-account-verified-icon::before, .channel-arrow::before {
