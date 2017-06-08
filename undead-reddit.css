@@ -68,7 +68,7 @@ textarea, .drop-choices {
   border-color: var(--secondary-bg-color) !important;
 }
 
-.listing-chooser, #sr-header-area, .nub, .multi-selector:before, .multi-selector:after, .rank, .beta-link, .archived-infobar:before, .interstitial-image, .modal, .users-online:before, .hover-bubble:before, .hover-bubble:after, .goldvertisement, .search-expando.collapsed::before, .search-result-icon, .midcol-spacer, .happening-now-logo {
+.listing-chooser, #sr-header-area, .nub, .multi-selector:before, .multi-selector:after, .rank, .beta-link, .archived-infobar:before, .interstitial-image, .modal, .users-online:before, .hover-bubble:before, .hover-bubble:after, .goldvertisement, .search-expando.collapsed::before, .search-result-icon, .midcol-spacer, .happening-now-logo, .deepthread::after {
   display: none !important;
 }
 
