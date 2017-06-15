@@ -7,7 +7,7 @@
     --highlight-color: #752a2a;
   }
 
-  body, .ProfilePage, .AdaptiveSearchPage {
+  body, body:not(.edge-design), .ProfilePage, .AdaptiveSearchPage {
     background-color: var(--bg-color) !important;
     color: var(--fg-color) !important;
   }
@@ -45,7 +45,7 @@
 
   /* TIMELINE */
 
-  .has-recap, .timeline-end, .caret-inner, .caret-outer, .ProfileCard .arrow, .Icon--verified::before, .Icon--close, .PermalinkOverlay-spinnerContainer, .pushstate-spinner, .ProfileNav-item--lists, .AdaptiveRelatedSearches, .LiveVideoHomePageModuleContainer, .PromptbirdPrompt, .ProfileClusterFollow {
+  .has-recap, .timeline-end, .caret-inner, .caret-outer, .ProfileCard .arrow, .Icon--verified::before, .Icon--close, .PermalinkOverlay-spinnerContainer, .pushstate-spinner, .ProfileNav-item--lists, .AdaptiveRelatedSearches, .LiveVideoHomePageModuleContainer, .PromptbirdPrompt, .ProfileClusterFollow, iframe {
     display: none !important;
   }
 
