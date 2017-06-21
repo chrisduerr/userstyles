@@ -79,7 +79,7 @@
 /* .status needs to be before .status-typing */
 
 .status {
-  border-radius: 33% !important;
+  border-radius: 0px !important;
 }
 
 .status-typing {
