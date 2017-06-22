@@ -76,16 +76,6 @@
   border-radius: unset !important;
 }
 
-/* .status needs to be before .status-typing */
-
-.status {
-  border-radius: 0px !important;
-}
-
-.status-typing {
-  border-radius: 4px !important;
-}
-
 .switch-3lyafC {
   border-radius: 14px !important;
 }
