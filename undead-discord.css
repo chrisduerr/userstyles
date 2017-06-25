@@ -164,14 +164,6 @@
   fill: var(--highlight-color) !important;
 }
 
-.ui-standard-sidebar-view .btn-close path {
-  fill: var(--secondary-fg-color) !important;
-}
-
-.ui-standard-sidebar-view .btn-close:hover path {
-  fill: var(--fg-color) !important;
-}
-
 .container-iksrDt, .guild.selected::before, .guild.unread::before {
   margin: unset !important;
 }
