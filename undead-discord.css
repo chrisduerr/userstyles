@@ -52,7 +52,7 @@
   background-color: #00000000 !important;
 }
 
-.comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button, body, .search-popout .date-picker .hint-value, .react-datepicker__day-name, .react-datepicker__current-month, .react-datepicker__day, .search-popout .option strong, .Select-placeholder, .Select-option, #instant-invite-modal .blurb, #instant-invite-modal .copy, #instant-invite-modal .clipboard-input-inner input, .deprecated-settings-modal .content label, .deprecated-settings-modal .content label::before, .control-group label, .notification-settings-modal-channel-settings-header label, .channel-arrow:hover, .slider-handle span, .guilds-add:hover, .join-server input, .create-guild-container h5, .create-guild-container #guild-name, .region-select button, .avatar-uploader-inner > *, .region-select-modal-header, .jump-button, .quick-message, .tooltip, .user-popout .nickname, #rtc-connection-popout header, .nameHoveredText-2FFqiz, .nameSelectedText-32NDX5, .nameUnreadText-1pxldj, .nameHoveredVoice-TIoHRJ, .nameSelectedVoice-XpjYTw, .ui-radiogroup .checked .info *, .font-scale-sample-large, .font-scale-sample-small {
+.comment .markup, .channel-textarea-inner textarea, .chat .channel-name, .guild-header span, .typing strong, .ui-button.filled, .messages-popout-wrap .has-more button, #user-profile-modal .discord-tag .username, #user-profile-modal .guild:hover, input#nickname, .btn-item:hover, .modal-content .form-inner p, .form .btn-primary, .tab-bar-item.selected, .tab-bar-item-primary, .channel-textarea-autocomplete-inner ul li, .emoji-picker .category, .upload-modal .button, .search-answer, .search-filter, .has-more button, body, .search-popout .date-picker .hint-value, .react-datepicker__day-name, .react-datepicker__current-month, .react-datepicker__day, .search-popout .option strong, .Select-placeholder, .Select-option, #instant-invite-modal .blurb, #instant-invite-modal .copy, #instant-invite-modal .clipboard-input-inner input, .deprecated-settings-modal .content label, .deprecated-settings-modal .content label::before, .control-group label, .notification-settings-modal-channel-settings-header label, .channel-arrow:hover, .slider-handle span, .guilds-add:hover, .join-server input, .create-guild-container h5, .create-guild-container #guild-name, .region-select button, .avatar-uploader-inner > *, .region-select-modal-header, .jump-button, .quick-message, .tooltip, .user-popout .nickname, #rtc-connection-popout header, .nameHoveredText-2FFqiz, .nameSelectedText-32NDX5, .nameUnreadText-1pxldj, .nameHoveredVoice-TIoHRJ, .nameSelectedVoice-XpjYTw, .ui-radiogroup .checked .info *, .font-scale-sample-large, .font-scale-sample-small, .textArea-20yzAH {
   color: var(--fg-color) !important;
 }
 
@@ -162,6 +162,10 @@
 
 #rtc-connection-popout g > :first-child {
   fill: var(--highlight-color) !important;
+}
+
+.attachButtonForeground-3VZiXQ {
+  fill: var(--fg-color) !important;
 }
 
 .container-iksrDt, .guild.selected::before, .guild.unread::before {
