@@ -250,11 +250,6 @@
   position: unset !important;
 }
 
-.textArea-20yzAH {
-  height: 30px !important;
-  line-height: 30px !important;
-}
-
 /* Don't ask me why but this needs two separate statements */
 ::-moz-selection {
   background-color: var(--highlight-color) !important;
