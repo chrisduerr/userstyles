@@ -59,4 +59,9 @@
   #urlbar-icons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
     display: none !important;
   }
+
+  /* Fix white flashing bg */
+  #main-window, browser[type="content-primary"], browser[type="content"], tabbrowser#content, #content, browser[type="content"] > html {
+    background: #1b1b1b !important;
+  }
 }
