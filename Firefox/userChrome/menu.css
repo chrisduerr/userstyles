@@ -1,0 +1,17 @@
+#appMenu-zoomReset-button {
+  background: var(--bg-color) !important;
+}
+
+toolbarbutton:-moz-any(:hover, [open]):not([disabled="true"]) > .toolbarbutton-badge-stack,
+toolbarbutton.subviewbutton:-moz-any(:hover, :focus):not(:-moz-any([disabled])),
+toolbarbutton.subviewbutton:-moz-any([open], :hover:active):not([disabled]) {
+  background: var(--secondary-bg-color) !important;
+}
+
+#appMenu-zoomReset-button {
+  border-color: var(--bg-color) !important;
+}
+
+#PanelUI-button {
+  border: unset !important;
+}

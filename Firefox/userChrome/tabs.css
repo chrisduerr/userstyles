@@ -1,0 +1,21 @@
+.tab-background[selected="true"],
+.tabbrowser-tab:hover .tab-background,
+#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) {
+  background: var(--bg-color) !important;
+}
+
+#TabsToolbar {
+  background: var(--secondary-bg-color) !important;
+}
+
+.tabbrowser-tab:hover:not([selected="true"]) .tab-line {
+  background: var(--highlight-color) !important;
+}
+
+.tab-text {
+  color: var(--fg-color) !important;
+}
+
+.tabbrowser-tab:hover:not([selected="true"]) .tab-line {
+  opacity: .5 !important;
+}

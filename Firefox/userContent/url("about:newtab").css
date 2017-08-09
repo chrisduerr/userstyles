@@ -1,0 +1,7 @@
+#root {
+  background: var(--bg-color) !important;
+}
+
+.prefs-button {
+  display: none !important;
+}

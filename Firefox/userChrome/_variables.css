@@ -1,0 +1,13 @@
+:root {
+  --bg-color: #1b1b1b;
+  --fg-color: #9e9e9e;
+  --secondary-bg-color: #262626;
+  --secondary-fg-color: #616161;
+  --highlight-color: #702020;
+}
+
+/* Don't close this */
+@-moz-document url(chrome://browser/content/browser.xul) {
+* {
+  border-radius: unset !important;
+}

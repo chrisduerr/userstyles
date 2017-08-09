@@ -1,0 +1,39 @@
+#nav-bar {
+  background: var(--bg-color) !important;
+}
+
+#nav-bar-customization-target toolbarbutton:hover:not([disabled="true"]) > .toolbarbutton-icon,
+#urlbar {
+  background: var(--secondary-bg-color) !important;
+}
+
+.urlbar-input::-moz-selection {
+  background: var(--highlight-color) !important;
+}
+
+.urlbar-input {
+  color: var(--fg-color) !important;
+}
+
+.urlbar-input::-moz-selection {
+  color: var(--bg-color) !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedDomain > #connection-icon,
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity > #connection-icon,
+#urlbar[pageproxystate="valid"] > #identity-box.mixedActiveBlocked > #connection-icon {
+  fill: var(--bg-color) !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
+  border: unset !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
+  padding-inline-end: 2px !important;
+  margin-inline-end: 2px !important;
+}
+
+#urlbar-icons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
+  display: none !important;
+}

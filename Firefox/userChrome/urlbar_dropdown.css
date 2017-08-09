@@ -1,0 +1,5 @@
+.autocomplete-richlistitem:not([selected="true"]) .ac-url,
+.autocomplete-richlistitem:not([selected="true"]) .ac-separator,
+.autocomplete-richlistitem:not([selected="true"]) .ac-action {
+  color: var(--secondary-fg-color) !important;
+}
