@@ -16,6 +16,17 @@
   color: var(--fg-color) !important;
 }
 
-.tabbrowser-tab:hover:not([selected="true"]) .tab-line {
+.tabbrowser-tab:hover:not([selected="true"]) .tab-background,
+#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) {
   opacity: .5 !important;
+}
+
+.tab-background {
+  border: unset !important;
+}
+
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
+  border-color: var(--bg-color) !important;
+  border-image: unset !important;
 }

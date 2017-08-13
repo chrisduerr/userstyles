@@ -3,6 +3,7 @@
 }
 
 #nav-bar-customization-target toolbarbutton:hover:not([disabled="true"]) > .toolbarbutton-icon,
+#navigator-toolbox,
 #urlbar {
   background: var(--secondary-bg-color) !important;
 }
@@ -25,7 +26,8 @@
   fill: var(--bg-color) !important;
 }
 
-#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity,
+#nav-bar {
   border: unset !important;
 }
 
