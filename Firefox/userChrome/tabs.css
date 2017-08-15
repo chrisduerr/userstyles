@@ -1,6 +1,7 @@
 .tab-background[selected="true"],
 .tabbrowser-tab:hover .tab-background,
-#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) {
+#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]),
+#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) > .toolbarbutton-icon {
   background: var(--bg-color) !important;
 }
 
