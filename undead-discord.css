@@ -107,7 +107,7 @@
   border-color: var(--bg-color) !important;
 }
 
-.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option, #rtc-connection-popout hr, .private-channels .channel:hover .status, .private-channels .channel.selected .status, .message-group-blocked, .input-2YozMi, .body-3rkFrF {
+.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option, #rtc-connection-popout hr, .private-channels .channel:hover .status, .private-channels .channel.selected .status, .message-group-blocked, .input-2YozMi, .body-3rkFrF, .header-toolbar .toolbar-badge {
   border-color: var(--secondary-bg-color) !important;
 }
 
