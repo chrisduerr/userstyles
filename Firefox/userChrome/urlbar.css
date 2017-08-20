@@ -36,6 +36,6 @@
   margin-inline-end: 2px !important;
 }
 
-#urlbar-icons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
+#page-action-buttons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
   display: none !important;
 }

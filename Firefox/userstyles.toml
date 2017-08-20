@@ -1,0 +1,14 @@
+[archlinux]
+id = 89090
+[github]
+id = 37035
+ik-base-color = "#616161"
+ik-bg-url = ""
+ik-code-wrap = ""
+ik-font-choice = "Fira Mono"
+ik-syntax-codemirror = "ik-cm-t-night-80s"
+ik-syntax-jupyter = "ik-jp-t-night-80s"
+ik-syntax-theme = "ik-TomorrowNight"
+ik-tab-size = "4"
+[wiki]
+id = 122072

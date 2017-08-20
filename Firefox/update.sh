@@ -26,6 +26,9 @@ for style in $(ls -N ./userContent/[^_]*); do           # Get files except for V
     echo "}" >> $USERCONTENT_PATH                       # Close @-moh-document header
 done
 
+# Add styles from userstyles.org
+userstyles-manager >> $USERCONTENT_PATH
+
 
 ### USERCHROME for modifying FF UI
 cat ./userChrome/_variables.css > $USERCHROME_PATH      # Vars and open @-moz-document

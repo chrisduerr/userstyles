@@ -1,0 +1,7 @@
+a {
+  color: var(--secondary-fg-color) !important;
+}
+
+body {
+  border: unset !important;
+}
