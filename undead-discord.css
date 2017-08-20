@@ -247,6 +247,10 @@
   width: 500px !important;
 }
 
+.chat > .title-wrap > .title .channel-name {
+  line-height: 25px !important;
+}
+
 
 /* Fix non-centered message input area */
 .inner-3if5cm {
