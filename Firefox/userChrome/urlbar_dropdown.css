@@ -1,5 +1,14 @@
-.autocomplete-richlistitem:not([selected="true"]) .ac-url,
-.autocomplete-richlistitem:not([selected="true"]) .ac-separator,
-.autocomplete-richlistitem:not([selected="true"]) .ac-action {
+.autocomplete-richlistitem:not([selected="true"]):not(hover) .ac-url,
+.autocomplete-richlistitem:not([selected="true"]):not(hover) .ac-separator,
+.autocomplete-richlistitem:not([selected="true"]):not(hover) .ac-action {
   color: var(--secondary-fg-color) !important;
+}
+
+.autocomplete-richlistitem:hover {
+  background-color: var(--highlight-color) !important;
+  border: unset !important;
+}
+
+.autocomplete-richlistitem:hover * {
+  color: var(--bg-color) !important;
 }
