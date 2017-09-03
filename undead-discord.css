@@ -95,7 +95,7 @@
   border-color: var(--highlight-color) !important;
 }
 
-.guilds-add, .create-guild-container #guild-name:focus, .avatar-uploader-inner, .checkbox-1QwaS4, .avatarStatus-3VdB8Y {
+.guilds-add, .create-guild-container #guild-name:focus, .avatar-uploader-inner, .checkbox-1QwaS4 {
   border-color: var(--secondary-fg-color) !important;
 }
 
@@ -103,15 +103,15 @@
   border-color: var(--fg-color) !important;
 }
 
-.popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status, .slider-handle, .private-channels .status, .checked-2TahvT, .container-iksrDt .status {
+.popout-menu-separator, .messages-popout-wrap .has-more button, #user-profile-modal .tab-bar-container, .channel-textarea-autocomplete-inner::after, .friends-header, .member .avatar-small .status, .react-datepicker__day, input[type="checkbox"]:checked + span::after, #instant-invite-modal .copy, .invite-button-icon.accepted::before, .channel-textarea-autocomplete-inner .status, .radio-inner, .account .status, .slider-handle, .private-channels .status, .checked-2TahvT, .container-iksrDt .status, .avatarStatus-3VdB8Y:hover {
   border-color: var(--bg-color) !important;
 }
 
-.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option, #rtc-connection-popout hr, .private-channels .channel:hover .status, .private-channels .channel.selected .status, .message-group-blocked, .input-2YozMi, .body-3rkFrF, .header-toolbar .toolbar-badge {
+.themed-popout, .messages-popout-wrap .has-more button:hover, .context-menu, .channel-textarea-autocomplete-inner, .channel-textarea-autocomplete-inner header, .friends-table-header, .member:hover .avatar-small .status, .emoji-picker, .emoji-picker .diversity-selector .popout, input#nickname, .message-group:not(.has-divider), .Select-menu-outer, .checkbox-inner span, .channel-textarea-autocomplete-inner li.active .status, .channel-notification-settings, .slider-handle span, .create-guild-container #guild-name, .region-select-modal-option, #rtc-connection-popout hr, .private-channels .channel:hover .status, .private-channels .channel.selected .status, .message-group-blocked, .input-2YozMi, .body-3rkFrF, .header-toolbar .toolbar-badge, .avatarStatus-3VdB8Y {
   border-color: var(--secondary-bg-color) !important;
 }
 
-.ui-button.filled:hover, .form .btn-primary:hover, .private-channel-recipients-invite button, .friends-action, .upload-modal .button-primary:hover, #friends .btn:hover, .region-select button, .avatar-profile .status, .avatar-popout .status, #rtc-connection-popout, .search-popout, .channel-textarea-guard button, .buttonBrandFilledDefault-2Rs6u5:hover, .buttonRedFilledDefault-1TrZ9q {
+.ui-button.filled:hover, .form .btn-primary:hover, .private-channel-recipients-invite button, .friends-action, .upload-modal .button-primary:hover, #friends .btn:hover, .region-select button, .avatar-profile .status, .avatar-popout .status, #rtc-connection-popout, .search-popout, .channel-textarea-guard button, .buttonBrandFilledDefault-2Rs6u5:hover, .buttonRedFilledDefault-1TrZ9q, .userPopout-4pfA0d {
   border: 1px solid var(--secondary-bg-color) !important;
 }
 
@@ -250,7 +250,6 @@
 .chat > .title-wrap > .title .channel-name {
   line-height: 25px !important;
 }
-
 
 /* Fix non-centered message input area */
 .inner-3if5cm {
