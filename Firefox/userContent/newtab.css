@@ -1,7 +1,7 @@
-#root {
+body {
   background: var(--bg-color) !important;
 }
 
-.prefs-button {
+body * {
   display: none !important;
 }
