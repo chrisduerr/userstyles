@@ -44,7 +44,7 @@
   background-color: var(--darkest-bg-color) !important;
 }
 
-.messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .react-datepicker__day--today::after, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .invite-button-icon.accepted, .radio-inner span::after, .ui-popout-list .ui-selectable-item.selected, .slider-bar-fill, .unread-23Kvxk, .wrapper-2xO9RX, .switch-3lyafC.checked-7qfgSb, .barFill-18ABna {
+.messages .divider.divider-red div, .mentioned .message-text::after, .badge, .checkbox input[type="checkbox"]:checked + span, .guild.selected::before, .guild.unread::before, .react-datepicker__day--today::after, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .invite-button-icon.accepted, .radio-inner span::after, .ui-popout-list .ui-selectable-item.selected, .slider-bar-fill, .unread-23Kvxk, .wrapper-2xO9RX, .switch-3lyafC.checked-7qfgSb, .barFill-18ABna, .unreadTop-25fmEL {
   background-color: var(--highlight-color) !important;
 }
 
