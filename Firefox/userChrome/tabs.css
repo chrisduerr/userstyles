@@ -31,3 +31,7 @@
   border-color: var(--bg-color) !important;
   border-image: unset !important;
 }
+
+.tabbrowser-tab {
+  --tab-line-color: var(--highlight-color) !important;
+}
