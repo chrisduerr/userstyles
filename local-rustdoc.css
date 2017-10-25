@@ -1,0 +1,70 @@
+/* The usual */
+* {
+  border-radius: unset !important;
+}
+
+/* Main page */
+body {
+  color: var(--fg-color) !important;
+  background-color: var(--bg-color) !important;
+}
+
+/* Content header */
+.in-band {
+  background-color: var(--bg-color) !important;
+  color: var(--fg-color) !important;
+}
+
+/* Separators */
+.section-header, h1.fqn {
+  border-bottom-color: var(--secondary-bg-color) !important;
+}
+
+/* Codeblocks */
+pre {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+/* Inline Codeblocks */
+code {
+  color: var(--secondary-fg-color) !important;
+  background-color: var(--secondary-bg-color) !important;
+}
+
+/* Sidebar */
+.sidebar, .location {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.location, .sidebar h3 {
+  color: var(--fg-color) !important;
+  border: unset !important;
+}
+
+/* Sidebar selection */
+.block a:hover, .sidebar .current {
+  background-color: var(--bg-color) !important;
+}
+
+/* Search bar */
+.search-input {
+  background-color: var(--secondary-bg-color) !important;
+  box-shadow: unset !important;
+}
+
+nav {
+  border: unset !important;
+}
+
+/* Search */
+#search > h1 {
+  color: var(--fg-color) !important;
+}
+
+.result.highlighted {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.result.highlighted span {
+  color: var(--secondary-fg-color) !important;
+}
