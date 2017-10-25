@@ -10,14 +10,19 @@ body {
 }
 
 /* Content header */
-.in-band {
+.in-band, .small-section-header {
   background-color: var(--bg-color) !important;
   color: var(--fg-color) !important;
 }
 
 /* Separators */
-.section-header, h1.fqn {
+.section-header, h1.fqn, .small-section-header {
   border-bottom-color: var(--secondary-bg-color) !important;
+}
+
+/* Highlighted element */
+:target {
+  background-color: var(--secondary-bg-color) !important;
 }
 
 /* Codeblocks */
@@ -26,7 +31,7 @@ pre {
 }
 
 /* Inline Codeblocks */
-code {
+:not(.in-band):not(.invisible) > code {
   color: var(--secondary-fg-color) !important;
   background-color: var(--secondary-bg-color) !important;
 }
