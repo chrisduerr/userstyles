@@ -248,10 +248,6 @@
   width: 500px !important;
 }
 
-.chat > .title .channel-name {
-  line-height: 25px !important;
-}
-
 /* Fix non-centered message input area */
 .inner-3if5cm {
   align-items: center !important;
