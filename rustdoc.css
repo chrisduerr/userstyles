@@ -1,0 +1,162 @@
+/* The usual */
+* {
+  border-radius: unset !important;
+}
+
+/* Main page */
+body {
+  color: var(--fg-color) !important;
+  background-color: var(--bg-color) !important;
+}
+
+a {
+  color: var(--secondary-fg-color);
+}
+
+.docblock a, .docblock-short a, .stability a, .section-header a {
+  color: var(--secondary-fg-color) !important;
+}
+
+/* Content header */
+.in-band, .small-section-header {
+  background-color: var(--bg-color) !important;
+  color: var(--fg-color) !important;
+}
+
+/* Separators */
+.section-header, h1.fqn, .small-section-header {
+  border-bottom-color: var(--secondary-bg-color) !important;
+}
+
+/* Highlighted element */
+:target {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+/* Codeblocks */
+pre {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+/* Inline Codeblocks */
+:not(.in-band):not(.invisible) > code {
+  color: var(--secondary-fg-color) !important;
+  background-color: var(--secondary-bg-color) !important;
+}
+
+/* Sidebar */
+.sidebar, .location {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.sidebar a:not(.current), .sidebar a.crate {
+  color: var(--secondary-fg-color) !important;
+}
+
+.location, .sidebar h3 {
+  color: var(--fg-color) !important;
+  border: unset !important;
+}
+
+/* Sidebar selection */
+.block a:hover, .sidebar .current {
+  background-color: var(--bg-color) !important;
+}
+
+/* Search bar */
+.search-input {
+  background-color: var(--secondary-bg-color) !important;
+  box-shadow: unset !important;
+}
+
+nav {
+  border: unset !important;
+}
+
+/* Search */
+#search > h1 {
+  color: var(--fg-color) !important;
+}
+
+.result.highlighted {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.result.highlighted span {
+  color: var(--secondary-fg-color) !important;
+}
+
+/* docs.rs navigator */
+.nav-container, .pure-menu-item, .pure-menu-link:focus, .pure-menu-children {
+  border: unset !important;
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.nav-container .pure-menu-link:hover {
+  color: var(--fg-color) !important;
+}
+
+.pure-menu-children {
+  border: 1px solid var(--bg-color) !important;
+}
+
+.package-details-menu * {
+  border-color: var(--bg-color) !important;
+}
+
+/* docs.rs crate search */
+.search-input-nav {
+  color: var(--secondary-fg-color) !important;
+  text-align: left !important;
+  padding: 5px !important;
+}
+
+/* Syntax colors outside of codeblocks */
+.content span.struct, .content a.struct, .block a.current.struct {
+  color: #6a9fb5 !important;
+}
+
+.content span.trait, .content a.trait, .block a.current.trait {
+  color: #75b5aa !important;
+}
+
+.content span.fn, .content a.fn, .block a.current.fn, .content span.method, .content a.method, .block a.current.method, .content span.tymethod, .content a.tymethod, .block a.current.tymethod, .content .fnname {
+  color: #ac4142 !important;
+}
+
+.content span.enum, .content a.enum, .block a.current.enum {
+  color: #90a959 !important;
+}
+
+.content span.primitive, .content a.primitive, .block a.current.primitive {
+  color: #aa759f !important;
+}
+
+.content span.externcrate, .content span.mod, .content a.mod, .block a.current.mod {
+  color: #aa759f !important;
+}
+
+.content span.type, .content a.type, .block a.current.type {
+  color: #f4bf75 !important;
+}
+
+/* Syntax colors inside codeblocks */
+pre.rust .kw {
+  color: #aa759f !important;
+}
+
+pre.rust .self, pre.rust .bool-val, pre.rust .prelude-val, pre.rust .attribute, pre.rust .attribute .ident {
+  color: #ac4142 !important;
+}
+
+pre.rust .kw-2, pre.rust .prelude-ty {
+  color: #6a9fb5 !important;
+}
+
+pre.rust .number, pre.rust .string {
+  color: #90a959 !important;
+}
+
+pre.rust .macro, pre.rust .macro-nonterminal {
+  color: #75b5aa !important;
+}
