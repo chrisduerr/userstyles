@@ -10,10 +10,6 @@ body {
 }
 
 a {
-  color: var(--secondary-fg-color);
-}
-
-.docblock a, .docblock-short a, .stability a, .section-header a {
   color: var(--secondary-fg-color) !important;
 }
 
