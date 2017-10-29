@@ -1,3 +1,13 @@
+:root {
+  --bg-color: #1b1b1b;
+  --fg-color: #9e9e9e;
+  --secondary-bg-color: #262626;
+  --secondary-fg-color: #616161;
+  --darkest-bg-color: #121212;
+  --highlight-color: #752a2a;
+  --secondary-highlight-color: #ac4142;
+}
+
 /* The usual */
 * {
   border-radius: unset !important;
