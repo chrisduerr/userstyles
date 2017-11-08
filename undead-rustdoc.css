@@ -171,3 +171,26 @@ pre.rust .macro, pre.rust .macro-nonterminal {
 .result.highlighted a {
   color: var(--fg-color) !important;
 }
+
+/* Warnings/Info */
+.stab {
+  color: var(--bg-color) !important;
+  border: unset !important;
+}
+
+.stab :not(.in-band):not(.invisible) > code {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  color: var(--bg-color) !important;
+}
+
+.stab.unstable {
+  background-color: #f4bf75 !important;
+}
+
+.stab.portability {
+  background-color: #6a9fb5 !important;
+}
+
+.stab.deprecated {
+  background-color: #aa759f !important;
+}
