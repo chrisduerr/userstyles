@@ -5,7 +5,6 @@
   --secondary-fg-color: #616161;
   --darkest-bg-color: #121212;
   --highlight-color: #752a2a;
-  --secondary-highlight-color: #ac4142;
 }
 
 /* The usual */
@@ -199,4 +198,13 @@ pre.rust .macro, pre.rust .macro-nonterminal {
 .search-input-nav {
   background-color: var(--bg-color) !important;
   color: var(--secondary-fg-color) !important;
+}
+
+/* doc.rust-lang.org tppe/parameter/return switch */
+#search > #titles > div.selected, #search > #titles > div:hover {
+  border-color: var(--highlight-color) !important;
+}
+
+#search > #titles > div:not(.selected):not(:hover) {
+  border: unset !important;
 }
