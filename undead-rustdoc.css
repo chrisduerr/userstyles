@@ -166,3 +166,8 @@ pre.rust .number, pre.rust .string {
 pre.rust .macro, pre.rust .macro-nonterminal {
   color: #75b5aa !important;
 }
+
+/* doc.rust-lang.org search results */
+.result.highlighted a {
+  color: var(--fg-color) !important;
+}
