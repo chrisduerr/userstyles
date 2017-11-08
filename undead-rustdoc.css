@@ -194,3 +194,9 @@ pre.rust .macro, pre.rust .macro-nonterminal {
 .stab.deprecated {
   background-color: #aa759f !important;
 }
+
+/* docs.rs "Find crate" dialog */
+.search-input-nav {
+  background-color: var(--bg-color) !important;
+  color: var(--secondary-fg-color) !important;
+}
