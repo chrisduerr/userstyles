@@ -208,3 +208,40 @@ pre.rust .macro, pre.rust .macro-nonterminal {
 #search > #titles > div:not(.selected):not(:hover) {
   border: unset !important;
 }
+
+/* docs.rs outside of docs */
+.pure-button {
+  background-color: var(--secondary-bg-color) !important;
+  color: var(--fg-color) !important;
+  border: unset !important;
+}
+
+.pure-menu-active {
+  background-color: var(--secondary-bg-color) !important;
+  border: 2px solid var(--secondary-bg-color) !important;
+}
+
+.release {
+  border-color: var(--secondary-bg-color) !important;
+}
+
+.release:hover {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.release .name {
+  color: var(--secondary-fg-color) !important;
+}
+
+.release .description, .release .date {
+  color: var(--fg-color) !important;
+}
+
+.cratesfyi-package-container {
+  background-color: var(--bg-color) !important;
+  border: unset !important;
+}
+
+.cratesfyi-package-container * {
+  color: var(--fg-color) !important;
+}
