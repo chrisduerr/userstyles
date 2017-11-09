@@ -24,7 +24,7 @@
   border-radius: unset !important;
 }
 
-body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content, .usertext-body, .interstitial-subreddit-description, .entry, .drop-choices a.choice:hover {
+body, .tabmenu a, .side, .spacer, .titlebox form.toggle, #header-bottom-right, .multi-name, .multi-list a, .trophy-area .content, .gold-accent, .modal-content, .usertext-body, .interstitial-subreddit-description, .entry, .drop-choices a.choice:hover, .author-tooltip__head {
   background-color: var(--bg-color) !important;
 }
 
@@ -56,7 +56,7 @@ body, .unvoted, .md, textarea, .multi-selector .title strong, .multi-list label,
   color: var(--downvote-color) !important;
 }
 
-.linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator, .reddit-infobar, .modal-content .buttons a, .hover-bubble, .c-btn-primary, .entry, .search-result-group-header, .happening-now {
+.linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator, .reddit-infobar, .modal-content .buttons a, .hover-bubble, .c-btn-primary, .entry, .search-result-group-header, .happening-now, .author-tooltip__head, .author-tooltip__credentials-list li {
   border: none !important;
 }
 
