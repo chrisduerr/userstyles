@@ -35,3 +35,7 @@
 .tabbrowser-tab {
   --tab-line-color: var(--highlight-color) !important;
 }
+
+.titlebar-placeholder[type="pre-tabs"], .titlebar-placeholder[type="post-tabs"] {
+  display: none !important;
+}
