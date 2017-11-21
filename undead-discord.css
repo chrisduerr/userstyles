@@ -33,26 +33,27 @@
   border-bottom: 1px solid var(--darkest-bg-color);
 }
 
-/* The following 3 blocks color the keybind-shortcut modal and buttons */
+/* The following 4 blocks color the keybind-shortcut modal and buttons */
 .ddr-arrows { display: none; }
 
-.keybind-shortcut > span,
-.keybind-shortcut > span > svg > g {
+.keybind-shortcut > span {
     color: var(--fg-color);
     background-color: var(--secondary-bg-color) !important;
     border: none;
     box-shadow: none;
     height: 21px;
     padding: 5px 6px;
-    fill: var(--fg-color);
 }
 
-.keybind-shortcut > span:active,
-.keybind-shortcut > span:active > svg > g {
+.keybind-shortcut > span:active {
     color: var(--fg-color);
     border: none;
     box-shadow: none;
     height: 21px;
+}
+
+.keybind-shortcut > span > svg > g,
+.keybind-shortcut > span:active > svg > g {
     fill: var(--fg-color) !important;
 }
 
