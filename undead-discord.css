@@ -36,19 +36,24 @@
 /* The following 3 blocks color the keybind-shortcut modal and buttons */
 .ddr-arrows { display: none; }
 
-.keybind-shortcut > span {
-    color: #4F545C !important;
+.keybind-shortcut > span,
+.keybind-shortcut > span > svg > g {
+    color: var(--fg-color);
     background-color: var(--secondary-bg-color) !important;
     border: none;
     box-shadow: none;
     height: 21px;
+    padding: 5px 6px;
+    fill: var(--fg-color);
 }
 
-.keybind-shortcut > span:active {
-    color: #4F545C !important;
+.keybind-shortcut > span:active,
+.keybind-shortcut > span:active > svg > g {
+    color: var(--fg-color);
     border: none;
     box-shadow: none;
     height: 21px;
+    fill: var(--fg-color) !important;
 }
 
 /* Colors the help modal (F1 key) */
@@ -64,7 +69,6 @@
 
 /* Replaces whitish border color with the dark red color */
 .inner-1_1f7b > .modal-content > .footer {
-    // border-top: 1px solid var(--highlight-color);
     border-top: none;
 }
 
@@ -74,9 +78,6 @@
     border: none;
     box-shadow: none;
     color: var(--fg-color) !important;
-    // background-color: var(--darker-bg-color);
-    // border: none;
-    // box-shadow: 0 2px 0 var(--highlight-color);
 }
 
 /* Colors help modal anchors */
