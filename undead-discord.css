@@ -34,8 +34,6 @@
 }
 
 /* The following 3 blocks color the keybind-shortcut modal and buttons */
-.ddr-arrows { display: none; }
-
 .keybind-shortcut > span {
     color: #4F545C !important;
     background-color: var(--secondary-bg-color) !important;
@@ -62,7 +60,6 @@
     background-color: var(--secondary-bg-color) !important;
 }
 
-/* Replaces whitish border color with the dark red color */
 .inner-1_1f7b > .modal-content > .footer {
     // border-top: 1px solid var(--highlight-color);
     border-top: none;
