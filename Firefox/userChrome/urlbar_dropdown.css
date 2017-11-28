@@ -4,11 +4,26 @@
   color: var(--secondary-fg-color) !important;
 }
 
-.autocomplete-richlistitem:hover {
-  background-color: var(--highlight-color) !important;
-  border: unset !important;
+.autocomplete-richlistitem:not([selected="true"]):not(hover) {
+  color: var(--fg-color) !important;
 }
 
-.autocomplete-richlistitem:hover * {
+.autocomplete-richlistitem:hover *,
+.autocomplete-richlistitem[selected="true"] {
   color: var(--bg-color) !important;
+}
+
+.autocomplete-richlistitem,
+#PopupAutoCompleteRichResult {
+  background-color: var(--bg-color) !important;
+}
+
+.autocomplete-richlistitem:hover,
+.autocomplete-richlistitem[selected="true"] {
+  background-color: var(--highlight-color) !important;
+}
+
+#PopupAutoCompleteRichResult {
+  border-bottom: 1px solid var(--secondary-bg-color) !important;
+  border: unset !important;
 }
