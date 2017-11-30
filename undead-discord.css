@@ -33,62 +33,11 @@
   border-bottom: 1px solid var(--darkest-bg-color);
 }
 
-/* The following 3 blocks color the keybind-shortcut modal and buttons */
-.keybind-shortcut > span {
-    color: #4F545C !important;
-    background-color: var(--secondary-bg-color) !important;
-    border: none;
-    box-shadow: none;
-    height: 21px;
+.body-3_tdh6, .keyboard-shortcuts-modal, .titleWrapper-3Vi_wz, .appMount-14L89u, .headerBar-cxbhPD, .messages-wrapper + form, .chat > .content, .account, .channel-members, .scrollbar, .scrollbar .thumb, .scrollbar::after, .divider-red span, .search-bar, .typing, .connecting, .layer .content-region, .layer .sidebar-region, .layer .pad, .ui-button.filled:hover, .ui-checkbox.checked, .connect-account-btn-inner, .ui-tab-bar-item:active, .connect-account-btn-inner:hover, .modal-container .markdown-modal, .modal-container .markdown-modal-footer, .modal-container .markdown-modal-header, .modal-container .scroller-wrap, .modal-container .scrollbar .track, .popout-menu-item:hover, .themed-popout, .messages-popout-wrap .has-more button:hover, .mentioned .message-text, #user-profile-modal .scroller, .note textarea:focus, #user-profile-modal .empty, .context-menu, #user-profile-modal .btn.add-friend, .context-menu .item-subMenu, .form-inner, .form-header, .form-actions, .form .btn-default, .form .btn-primary:hover, .popout, .channel-textarea-autocomplete-inner, .btn-item:hover, .private-channels, .messages .divider:not(.red) span, #friends, .friends-header, .friends-table, .friends-action, .private-channel-recipients-invite button, .upload-modal, .upload-modal .footer, .upload-modal .button, .upload-modal .button-primary:hover, .emoji-picker .scrollbar .track, .emoji-picker, .emoji-picker .sticky-header, .create-guild-container .join:hover .btn, .create-guild-container, .search-results-wrap, .search-results-wrap .channel-name, .emoji-picker .thumb, .private-channels .track, #friends .btn:hover, .add-friend-input-wrapper, .react-datepicker__day--disabled, .react-datepicker__day--outside-month, .Select-option.is-focused, .instant-invite-modal, .invite-button-icon, .deprecated-settings-modal .settings-inner, .deprecated-settings-modal .settings-actions, .ui-popout-list .ui-selectable-item:hover, .ui-standard-sidebar-view .btn-close, .checkbox-inner span, .slider-handle span, .region-select button:hover, .region-select-modal, .region-select-modal-option:hover, .jump-button, #rtc-connection, #rtc-connection-popout section, .emoji-picker .pad, .search-popout, .channel-textarea-guard button:hover, .message-group-blocked, .channels-3g2vYe > div, .buttonBrandFilledDefault-2Rs6u5:hover, .scrollbar-2so3Ly, .pad-3D5tOh, .track-2Kex6E, .checked-2TahvT, .switch-3lyafC::before, .input-2YozMi, .message-group > .comment > div:not(.message), #user-profile-modal .track, .modal-3HOjGZ, .buttonRedFilledDefault-1TrZ9q:hover, .footer-1PYmcw, .selectorSelected-2M0IGv, .headerNormal-1cioxU, .footer-2J5zqP, .quickswitcher, .inner-1_1f7b > .modal-content, .inner-1_1f7b > .modal-content > .header, .inner-1_1f7b > .modal-content > .footer, .keyboard-shortcuts-modal .scrollbar .track {
+  background-color: var(--bg-color) !important;
 }
 
-.keybind-shortcut > span:active {
-    color: #4F545C !important;
-    border: none;
-    box-shadow: none;
-    height: 21px;
-}
-
-/* Colors the help modal (F1 key) */
-.inner-1_1f7b > .modal-content,
-.inner-1_1f7b > .modal-content > .header,
-.inner-1_1f7b > .modal-content > .footer {
-    background-color: var(--bg-color) !important;
-}
-
-.inner-1_1f7b > .modal-content > .form-inner {
-    background-color: var(--secondary-bg-color) !important;
-}
-
-.inner-1_1f7b > .modal-content > .footer {
-    // border-top: 1px solid var(--highlight-color);
-    border-top: none;
-}
-
-/* Colors help query box */
-#help-query {
-    background-color: var(--secondary-bg-color);
-    border: none;
-    box-shadow: none;
-    color: var(--fg-color) !important;
-    // background-color: var(--darker-bg-color);
-    // border: none;
-    // box-shadow: 0 2px 0 var(--highlight-color);
-}
-
-/* Colors help modal anchors */
-.inner-1_1f7b > .modal-content > .form-inner > ul > li > a,
-.inner-1_1f7b > .modal-content > .footer > a {
-    color: var(--secondary-highlight-color);
-}
-
-/* Colors help modal anchors (active | clicked on) */
-.inner-1_1f7b > .modal-content > .form-inner > ul > li > a:active,
-.inner-1_1f7b > .modal-content > .footer > a:active {
-    color: var(--highlight-color);
-}
-
-.title-qAcLxz, .guild-header > header, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guilds-wrapper .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb, .private-channels .thumb, .icon-friends, #friends .btn, .bot-tag, .search-popout .date-picker .hint-value, .react-datepicker__header, .react-datepicker, .Select-control, .Select-menu-outer, #instant-invite-modal .clipboard-input-inner input, #instant-invite-modal .copy, .invite-button, .radio-inner, .ui-popout-list, .ui-popout-list .scrollbar .pad, .ui-popout-list .scrollbar .track, .ui-audit-log .header, .ui-hover-card::before, .slider-handle, .guilds-add, .join-server input, .region-select-inner, .region-select button, .avatar-uploader-inner, .region-select-modal-option, .jump-button:hover, .ui-settings-notice, .tooltip, #rtc-connection .btn, #rtc-connection-popout header, .message-group-blocked-btn, .channel-textarea-guard button, .contentSelectedText-3j5CXt, .contentHoveredText-2HYGIY, .cardPrimary-ZVL9Jr, .buttonBrandFilledDefault-2Rs6u5, .cardPrimaryEditable-2IQ7-V, .thumb-3VsfAI, .itemDefaultSelected-1UAWLe, .itemDefault-3NDwnY:hover, .switch-3lyafC, .bar-2cFRGz, .markDash-3j1QxS, .header-1tSljs, .buttonRedFilledDefault-1TrZ9q, .message-25xg43, .contentHoveredVoice-3qGNKh:active, .inner-3if5cm, .autocompleteInner-N7OQf1, .body-3rkFrF, .quickswitcher .big-input, .quickswitcher .result.selected, .draggable-3SphXU:active > *, .contentSelectedVoice-gTtYM9.content-2mSKOj:active, .unread-2TDDFN, .member.popout-open {
+.topSectionNormal-2LlRG1, .topSectionPlaying-3jAH9b, .wrapper-uAa07y, .title-qAcLxz, .guild-header > header, .account .btn, .channel-textarea-inner, .comment code.inline, .embed-color-pill, .embed, .ui-card, .ui-button.filled, .ui-tab-bar-item.selected, .popout-menu, .ui-audit-log-clickable .header, .ui-audit-log-change-details, .ui-search-bar, .themed-popout .header, .themed-popout .message-group, .messages-popout-wrap .has-more button, .jump-to-present-bar, .messages-popout .action-buttons, .message-group .markup pre code, .quick-message, #user-profile-modal .header, #user-profile-modal .tab-bar-container, #user-profile-modal .avatar-wrapper, #user-profile-modal .guild:hover, .context-menu .item:hover, #user-profile-modal .btn.add-friend:hover, .scrollbar .thumb:after, .new-messages-bar, .form .btn-primary, .channel-textarea-autocomplete-inner .active, .channel-textarea-autocomplete-inner header, .channel.private.selected a, .channel.private:hover a, .private-channels .btn-friends:hover a, .private-channels .btn-friends.selected a, .friends-column-separator, .friends-row:hover, .friends-action:hover, #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover, .tab-bar-item-primary, .tab-bar-item.selected, .tab-bar-item:hover, .search-bar-tag, .private-channel-recipients-invite button:hover, .private-channel-recipients-invite .footer, .upload-modal .button-primary, .channel-members .member:hover, .search-bar.search-bar-light .search-bar-inner, .emoji-picker .emoji-item.selected, .create-guild-container .action, .guilds-wrapper .guild-inner, .search-popout .option.selected, .search-results-wrap .search-result .hit, .search-results-wrap .search-header, .search-answer, .search-filter, .has-more button, .divider:not(.divider-red) div, .option-popout, .emoji-picker .thumb, .private-channels .thumb, .icon-friends, #friends .btn, .bot-tag, .search-popout .date-picker .hint-value, .react-datepicker__header, .react-datepicker, .Select-control, .Select-menu-outer, #instant-invite-modal .clipboard-input-inner input, #instant-invite-modal .copy, .invite-button, .radio-inner, .ui-popout-list, .ui-popout-list .scrollbar .pad, .ui-popout-list .scrollbar .track, .ui-audit-log .header, .ui-hover-card::before, .slider-handle, .guilds-add, .join-server input, .region-select-inner, .region-select button, .avatar-uploader-inner, .region-select-modal-option, .jump-button:hover, .ui-settings-notice, .tooltip, #rtc-connection .btn, #rtc-connection-popout header, .message-group-blocked-btn, .channel-textarea-guard button, .contentSelectedText-3j5CXt, .contentHoveredText-2HYGIY, .cardPrimary-ZVL9Jr, .buttonBrandFilledDefault-2Rs6u5, .cardPrimaryEditable-2IQ7-V, .thumb-3VsfAI, .itemDefaultSelected-1UAWLe, .itemDefault-3NDwnY:hover, .switch-3lyafC, .bar-2cFRGz, .markDash-3j1QxS, .header-1tSljs, .buttonRedFilledDefault-1TrZ9q, .message-25xg43, .contentHoveredVoice-3qGNKh:active, .inner-3if5cm, .autocompleteInner-N7OQf1, .body-3rkFrF, .quickswitcher .big-input, .quickswitcher .result.selected, .draggable-3SphXU:active > *, .contentSelectedVoice-gTtYM9.content-2mSKOj:active, .unread-2TDDFN, .member.popout-open, .keybind-shortcut > span, .inner-1_1f7b > .modal-content > .form-inner, #help-query {
   background-color: var(--secondary-bg-color) !important;
 }
 
