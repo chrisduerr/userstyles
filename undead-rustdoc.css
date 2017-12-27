@@ -29,8 +29,14 @@ a {
 }
 
 /* Separators */
-.section-header, h1.fqn, .small-section-header {
+.section-header, h1.fqn, .small-section-header,
+h2, h3:not(.impl):not(.method):not(.type):not(.tymethod), h4:not(.method):not(.type):not(.tymethod) {
   border-bottom-color: var(--secondary-bg-color) !important;
+}
+
+/* Separator labels */
+h1, h2, h3:not(.impl):not(.method):not(.type):not(.tymethod), h4:not(.method):not(.type):not(.tymethod) {
+  color: var(--secondary-fg-color) !important;
 }
 
 /* Highlighted element */
