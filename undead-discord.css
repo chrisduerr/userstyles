@@ -124,7 +124,7 @@
   border-left: 3px solid var(--secondary-fg-color) !important;
 }
 
-.ddr-arrows, .connecting-inner, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice, .tooltip::after, #rtc-connection-popout section::before, #rtc-connection-popout section::after, .quickswitcher .tips, .quickswitcher .results-scroller-outer::before {
+.theme-dark .card-11ynQk:before, .ddr-arrows, .connecting-inner, .ui-tab-bar-item.brand, .ui-tab-bar-item.brand+.ui-tab-bar-separator, .modal-container .markdown-modal-close, .ui-audit-log-clickable .divider, #user-profile-modal .header:after, .messages-popout-wrap .jump-button, .btn-download-apps, .or, .search-results-wrap .search-result::before, .search-results-wrap .search-result::after, .search-popout .keybind-shortcut, .search-popout .results-group::before, .clipboard-input-inner button:first-of-type::before, .ui-standard-sidebar-view .btn-close .background > :first-child, .ui-standard-sidebar-view .esc-text, .slider-handle span::after, .slider-handle span::before, .channel-notice, .tooltip::after, #rtc-connection-popout section::before, #rtc-connection-popout section::after, .quickswitcher .tips, .quickswitcher .results-scroller-outer::before {
   display: none !important;
 }
 
@@ -304,11 +304,6 @@
 /* This is for the new title bar on Windows, adding a border under it */
 .titleBar-3_fDwJ {
   border-bottom: 1px solid var(--darkest-bg-color);
-}
-
-/* Handles server cards so hovering doesn't cause background to not match theme */
-.theme-dark .card-11ynQk:before {
-  opacity: 0;
 }
 
 /* Sets arrow on group count max to match it's box's background color */
