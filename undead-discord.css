@@ -32,7 +32,7 @@
   background-color: var(--secondary-bg-color) !important;
 }
 
-.slider-bar {
+.slider-bar, .button-2t3of8, .button-2t3of8:hover {
   background-color: var(--secondary-fg-color) !important;
 }
 
@@ -68,7 +68,7 @@
   color: var(--secondary-highlight-color) !important;
 }
 
-.badge, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .ui-popout-list .ui-selectable-item.selected, .wrapper-2xO9RX, .mention-RlZ5F3, .mention-RlZ5F3 svg {
+.badge, :not(.react-datepicker__day--disabled).react-datepicker__day:hover, .ui-popout-list .ui-selectable-item.selected, .wrapper-2xO9RX, .mention-RlZ5F3, .mention-RlZ5F3 svg, .button-2t3of8 {
   color: var(--bg-color) !important;
 }
 
@@ -145,7 +145,7 @@
   opacity: unset !important;
 }
 
-.divider div {
+.divider div, .button-2t3of8:hover {
   opacity: 0.75 !important;
 }
 
