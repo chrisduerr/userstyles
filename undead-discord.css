@@ -256,6 +256,11 @@
   height: unset !important;
 }
 
+/* Fix non-centered text input box */
+.textArea-20yzAH[style*="height: auto"] {
+  height: 0px !important;
+}
+
 .keybind-shortcut span {
   padding-top: 4px !important;
 }
