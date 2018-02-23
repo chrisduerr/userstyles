@@ -256,9 +256,11 @@
   height: unset !important;
 }
 
-/* Fix non-centered text input box */
-.textArea-20yzAH[style*="height: auto"] {
-  height: 0px !important;
+/* Fix non-centered text input box in Firefox */
+@-moz-document url-prefix() {
+  .textArea-20yzAH[style*="height: auto"] {
+    height: 0px !important;
+  }
 }
 
 .keybind-shortcut span {
