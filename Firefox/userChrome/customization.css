@@ -1,3 +1,48 @@
+/* Main Body */
 #customization-container {
   background: var(--bg-color) !important;
+}
+
+/* Overflow Menu */
+#customization-panelHolder {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+#customization-container .panel-arrow {
+  display: none !important;
+}
+
+#widget-overflow-fixed-list {
+  border-color: var(--bg-color) !important;
+}
+
+/* Customization menus for Themes/Density */
+.customizationmode-button .panel-arrowcontent {
+  background-color: var(--bg-color) !important;
+}
+
+.customization-uidensity-menuitem[active="true"], .customization-uidensity-menuitem:hover, .customization-lwtheme-menu-theme[active="true"], .customization-lwtheme-menu-theme:hover {
+  background: var(--secondary-bg-color) !important;
+  border: unset !important;
+}
+
+#customization-lwtheme-menu-recommended, #customization-lwtheme-menu-header {
+  border-color: var(--secondary-bg-color) !important;
+}
+
+#customization-lwtheme-menu-footer {
+  background: unset !important;
+  border: unset !important;
+}
+
+.customization-lwtheme-menu-footeritem {
+  background: var(--secondary-bg-color) !important;
+}
+
+.customization-lwtheme-menu-footeritem:first-child {
+  border-color: var(--bg-color) !important;
+}
+
+.customization-lwtheme-menu-footeritem:hover {
+  opacity: 0.5 !important;
 }
