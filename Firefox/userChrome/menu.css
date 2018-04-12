@@ -1,4 +1,5 @@
-#appMenu-zoomReset-button {
+/* Main Panel */
+#appMenu-mainView {
   background: var(--bg-color) !important;
 }
 
@@ -8,10 +9,27 @@ toolbarbutton.subviewbutton:-moz-any([open], :hover:active):not([disabled]) {
   background: var(--secondary-bg-color) !important;
 }
 
-#appMenu-zoomReset-button {
-  border-color: var(--bg-color) !important;
+.panel-arrowcontent {
+  border: 1px solid var(--secondary-bg-color) !important;
+  margin-right: 5px !important;
 }
 
-#PanelUI-button {
+/* Separators */
+toolbarseparator {
+  border-color: var(--secondary-bg-color) !important;
+}
+
+/* Button for resetting zoom percentage */
+#appMenu-zoomReset-button {
+  background-color: var(--bg-color) !important;
   border: unset !important;
+}
+
+#appMenu-zoomReset-button:hover {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+/* Little arrow that points torwards hamburger button */
+#appMenu-popup .panel-arrow {
+  display: none !important;
 }
