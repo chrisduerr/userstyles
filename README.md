@@ -1,5 +1,5 @@
 # Discord
-![Screenshot](https://i.imgur.com/Ao9dNwJ.png)
+The discord theme has been moved to https://github.com/pazuzu156/userstyles.
 
 # Rustdoc
 ![Screenshot](https://i.imgur.com/P0l7Dgq.png)
