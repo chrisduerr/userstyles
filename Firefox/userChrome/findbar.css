@@ -1,0 +1,56 @@
+/* Bar at the bottom that opens when pressing Ctrl+F */
+
+.browserContainer > findbar {
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.findbar-button:hover .toolbarbutton-text {
+  background-color: var(--bg-color) !important;
+}
+
+.findbar-button:active .toolbarbutton-text {
+  background-color: var(--bg-color) !important;
+  filter: brightness(115%);
+}
+
+.findbar-button[checked] .toolbarbutton-text {
+  background-color: var(--bg-color) !important;
+}
+
+/* Search Box+Buttons */
+.findbar-textbox {
+  background-color: var(--bg-color) !important;
+  margin-right: 5px !important;
+  border: unset !important;
+}
+
+.findbar-find-next,
+.findbar-find-previous {
+  background: var(--bg-color) !important;
+  border: unset !important;
+}
+
+.findbar-find-next:not([disabled]):hover,
+.findbar-find-previous:not([disabled]):hover {
+  filter: brightness(115%);
+}
+
+.findbar-find-next:not([disabled]):active,
+.findbar-find-previous:not([disabled]):active {
+  filter: brightness(125%);
+}
+
+.findbar-textbox,
+.findbar-find-next,
+.findbar-find-previous {
+  box-shadow: unset !important;
+}
+
+.findbar-textbox[status="notfound"] {
+  outline: 1px solid var(--highlight-color) !important;
+}
+
+/* Prevent white flickering when opening/closing */
+.browserContainer {
+  background-color: var(--bg-color) !important;
+}

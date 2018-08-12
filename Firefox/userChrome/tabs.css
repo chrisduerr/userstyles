@@ -39,3 +39,8 @@
 .titlebar-placeholder[type="pre-tabs"], .titlebar-placeholder[type="post-tabs"] {
   display: none !important;
 }
+
+/* Color of loading dots and burst when loading is finished */
+.tabbrowser-tab {
+  --tab-loading-fill: var(--highlight-color);
+}

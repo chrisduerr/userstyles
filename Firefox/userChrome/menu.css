@@ -1,5 +1,5 @@
-/* Main Panel */
-#appMenu-mainView {
+/* Menu Panel */
+panelview {
   background: var(--bg-color) !important;
 }
 
@@ -29,7 +29,7 @@ toolbarseparator {
   background-color: var(--secondary-bg-color) !important;
 }
 
-/* Little arrow that points torwards hamburger button */
+/* Remove little arrow that points torwards hamburger button */
 #appMenu-popup .panel-arrow {
   display: none !important;
 }

@@ -26,8 +26,9 @@
   fill: var(--bg-color) !important;
 }
 
-#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity,
-#nav-bar {
+#nav-bar,
+#urlbar:not([focused="true"]),
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
   border: unset !important;
 }
 
