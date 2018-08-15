@@ -11,4 +11,4 @@
 The discord theme has been moved to https://github.com/pazuzu156/undead-discord.
 
 # Twitter
-![Screenshot](https://i.imgur.com/nsVEkhu.png)
+The twitter theme is not maintained anymore, but can still be found in the `unmaintained` folder.
