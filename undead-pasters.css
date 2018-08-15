@@ -15,6 +15,7 @@
 html,
 body > pre {
   background-color: var(--bg-color) !important;
+  color: var(--fg-color) !important;
 }
 
 /* SYNTAX */
