@@ -62,7 +62,8 @@ span[style*="color:#586e75"] {
   background-color: transparent !important;
 }
 
-.markdown-body pre {
+.markdown-body pre,
+.markdown-body code {
   background-color: var(--secondary-bg-color) !important;
 }
 
