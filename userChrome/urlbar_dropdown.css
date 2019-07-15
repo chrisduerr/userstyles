@@ -1,0 +1,7 @@
+.urlbarView-row:not([selected=""]) .urlbarView-url, .urlbarView-row:not([selected=""]) .urlbarView-action {
+  color: var(--secondary-highlight-color) !important;
+}
+
+.urlbarView-row[selected=""] .urlbarView-url, .urlbarView-row[selected=""] .urlbarView-action {
+  color: var(--bg-color) !important;
+}

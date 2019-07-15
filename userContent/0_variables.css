@@ -11,3 +11,12 @@
   --magenta: #aa759f;
   --cyan: #75b5aa;
 }
+
+* {
+  scrollbar-color: #262626 #1b1b1b;
+}
+
+::selection {
+  background: var(--highlight-color);
+  color: var(--bg-color);
+}

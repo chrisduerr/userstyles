@@ -1,7 +1,0 @@
-body {
-  background: var(--bg-color) !important;
-}
-
-body * {
-  display: none !important;
-}
