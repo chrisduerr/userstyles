@@ -1,7 +1,15 @@
 .urlbarView-row:not([selected=""]) .urlbarView-url, .urlbarView-row:not([selected=""]) .urlbarView-action {
-  color: var(--secondary-highlight-color) !important;
+  color: var(--secondary-fg-color) !important;
 }
 
 .urlbarView-row[selected=""] .urlbarView-url, .urlbarView-row[selected=""] .urlbarView-action {
   color: var(--bg-color) !important;
+}
+
+.urlbarView-row[selected=""] {
+  background: var(--highlight-color) !important;
+}
+
+#urlbarView-results {
+  background: var(--bg-color) !important;
 }
