@@ -7,8 +7,6 @@
   --secondary-highlight-color: #ac4142;
 }
 
-/* Don't close this */
-@-moz-document url(chrome://browser/content/browser.xul) {
 * {
   border-radius: unset !important;
 }

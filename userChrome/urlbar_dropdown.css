@@ -17,3 +17,7 @@
 #urlbarView-results {
   background: var(--bg-color);
 }
+
+.urlbarView-row:not([selected]) .urlbarView-title {
+  color: var(--fg-color);
+}
