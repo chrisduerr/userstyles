@@ -71,4 +71,19 @@
   .markdown-body a {
     color: var(--red) !important;
   }
+
+  .markdown-body table tr {
+    background-color: var(--secondary-bg-color) !important;
+  }
+
+  .markdown-body table td,
+  .markdown-body table th,
+  .markdown-body table tr {
+    border-color: var(--secondary-fg-color) !important;
+  }
+
+  .markdown-body h1,
+  .markdown-body h2 {
+    border-color: var(--secondary-fg-color) !important;
+  }
 }
