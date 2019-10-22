@@ -12,18 +12,12 @@
   background: var(--highlight-color) !important;
 }
 
-.urlbar-input {
+.urlbar-input-box {
   color: var(--fg-color) !important;
 }
 
 .urlbar-input::-moz-selection {
   color: var(--bg-color) !important;
-}
-
-#urlbar[pageproxystate="valid"] > #identity-box.verifiedDomain > #connection-icon,
-#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity > #connection-icon,
-#urlbar[pageproxystate="valid"] > #identity-box.mixedActiveBlocked > #connection-icon {
-  fill: var(--bg-color) !important;
 }
 
 #nav-bar,
@@ -38,5 +32,9 @@
 }
 
 #page-action-buttons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
+  display: none !important;
+}
+
+#tracking-protection-icon-container {
   display: none !important;
 }
