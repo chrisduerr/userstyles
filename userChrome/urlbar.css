@@ -1,40 +1,71 @@
+/* Bar surrounding the URLbar */
 #nav-bar {
   background: var(--bg-color) !important;
 }
 
-#nav-bar-customization-target toolbarbutton:hover:not([disabled="true"]) > .toolbarbutton-icon,
-#navigator-toolbox,
-#urlbar {
-  background: var(--secondary-bg-color) !important;
-}
-
-.urlbar-input::-moz-selection {
-  background: var(--highlight-color) !important;
-}
-
-.urlbar-input-box {
+/* URLbar colors */
+.urlbarView-row:not([selected]) .urlbarView-title, .urlbar-input-box {
   color: var(--fg-color) !important;
 }
 
-.urlbar-input::-moz-selection {
+#urlbar > #urlbar-background {
+  background: var(--secondary-bg-color) !important;
+  border: none !important;
+}
+
+.urlbarView-body-inner {
+  border-top: none !important;
+}
+
+/* Dropdown result colors */
+.urlbarView-row[selected] {
+  background: var(--highlight-color) !important;
+}
+
+.urlbarView-row:not([selected]):hover {
+  background: var(--secondary-bg-color);
+}
+
+.urlbarView-row:not([selected]) .urlbarView-url,
+.urlbarView-row:not([selected]) .urlbarView-action {
+  color: var(--secondary-fg-color) !important;
+}
+
+.urlbarView-row[selected] .urlbarView-url, .urlbarView-row[selected] .urlbarView-action {
   color: var(--bg-color) !important;
 }
 
-#nav-bar,
-#urlbar:not([focused="true"]),
-#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
-  border: unset !important;
+/* Disable Megabar */
+#urlbar[breakout][breakout-extend] {
+  top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+  left: 0 !important;
+  width: 100% !important;
 }
 
-#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity {
-  padding-inline-end: 2px !important;
-  margin-inline-end: 2px !important;
+#urlbar[breakout][breakout-extend] > #urlbar-input-container {
+  height: var(--urlbar-height) !important;
+  padding-block: 0 !important;
+  padding-inline: 0 !important;
 }
 
-#page-action-buttons, .autocomplete-history-dropmarker, .urlbar-go-button, #identity-icon-labels {
-  display: none !important;
+#urlbar[open] > #urlbar-background {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
 }
 
+.urlbarView {
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.urlbarView-row {
+  padding: 0px !important;
+}
+
+/* Hide useless crap */
+#page-action-buttons,
+.autocomplete-history-dropmarker,
+.urlbar-go-button,
+#identity-icon-labels,
 #tracking-protection-icon-container {
   display: none !important;
 }
