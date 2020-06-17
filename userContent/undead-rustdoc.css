@@ -116,52 +116,48 @@
 
   /* Syntax colors outside of codeblocks */
   .content span.struct, .content a.struct, .block a.current.struct {
-    color: #6a9fb5 !important;
+    color: var(--blue) !important;
   }
 
   .content span.trait, .content a.trait, .block a.current.trait {
-    color: #75b5aa !important;
+    color: var(--cyan) !important;
   }
 
   .content span.fn, .content a.fn, .block a.current.fn, .content span.method, .content a.method, .block a.current.method, .content span.tymethod, .content a.tymethod, .block a.current.tymethod, .content .fnname {
-    color: #ac4142 !important;
+    color: var(--red) !important;
   }
 
   .content span.enum, .content a.enum, .block a.current.enum {
-    color: #90a959 !important;
+    color: var(--green) !important;
   }
 
-  .content span.primitive, .content a.primitive, .block a.current.primitive {
-    color: #aa759f !important;
-  }
-
-  .content span.externcrate, .content span.mod, .content a.mod, .block a.current.mod {
-    color: #aa759f !important;
+  .content span.primitive, .content a.primitive, .block a.current.primitive, .content span.externcrate, .content span.mod, .content a.mod, .block a.current.mod {
+    color: var(--magenta) !important;
   }
 
   .content span.type, .content a.type, .block a.current.type {
-    color: #f4bf75 !important;
+    color: var(--yellow) !important;
   }
 
   /* Syntax colors inside codeblocks */
   pre.rust .kw {
-    color: #aa759f !important;
+    color: var(--magenta) !important;
   }
 
   pre.rust .self, pre.rust .bool-val, pre.rust .prelude-val, pre.rust .attribute, pre.rust .attribute .ident {
-    color: #ac4142 !important;
+    color: var(--red) !important;
   }
 
   pre.rust .kw-2, pre.rust .prelude-ty {
-    color: #6a9fb5 !important;
+    color: var(--blue) !important;
   }
 
   pre.rust .number, pre.rust .string {
-    color: #90a959 !important;
+    color: var(--green) !important;
   }
 
   pre.rust .macro, pre.rust .macro-nonterminal {
-    color: #75b5aa !important;
+    color: var(--cyan) !important;
   }
 
   /* doc.rust-lang.org search results */
@@ -181,15 +177,15 @@
   }
 
   .stab.unstable {
-    background-color: #f4bf75 !important;
+    background-color: var(--yellow) !important;
   }
 
   .stab.portability {
-    background-color: #6a9fb5 !important;
+    background-color: var(--blue) !important;
   }
 
   .stab.deprecated {
-    background-color: #aa759f !important;
+    background-color: var(--magenta) !important;
   }
 
   /* docs.rs "Find crate" dialog */
@@ -204,6 +200,7 @@
   }
 
   #search > #titles > div:not(.selected):not(:hover) {
+    background: transparent !important;
     border: unset !important;
   }
 
@@ -242,5 +239,54 @@
 
   .cratesfyi-package-container * {
     color: var(--fg-color) !important;
+  }
+
+  #all-types {
+    background-color: var(--bg-color) !important;
+    border-color: var(--bg-color) !important;
+  }
+
+  .theme-picker {
+    display: none;
+  }
+
+  #crate-search {
+    background: var(--secondary-bg-color) !important;
+    border-color: var(--bg-color) !important;
+    box-shadow: none !important;
+    background-blend-mode: exclusion;
+  }
+
+  #settings-menu {
+    background: var(--bg-color) !important;
+    border: none !important;
+  }
+
+  #settings-menu img {
+    filter: invert(.5);
+  }
+
+  .slider {
+    background-color: var(--secondary-bg-color) !important;
+  }
+
+  .slider::before {
+    background-color: var(--highlight-color) !important;
+  }
+
+  input:checked + .slider {
+    background-color: var(--highlight-color) !important;
+  }
+
+  input:checked + .slider::before {
+    background-color: var(--secondary-bg-color) !important;
+  }
+
+  .setting-line > .title {
+    border-bottom-color: var(--secondary-bg-color) !important;
+  }
+
+  .sidebar .version {
+    border-bottom-color: var(--bg-color) !important;
   }
 }
