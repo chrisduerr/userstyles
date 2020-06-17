@@ -1,0 +1,8 @@
+* {
+  scrollbar-color: var(--secondary-bg-color) var(--bg-color) !important;
+}
+
+::selection {
+  background: var(--highlight-color) !important;
+  color: var(--bg-color) !important;
+}

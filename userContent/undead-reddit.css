@@ -1,14 +1,4 @@
 @-moz-document domain("reddit.com") {
-  :root {
-    --bg-color: #1b1b1b;
-    --fg-color: #9e9e9e;
-    --secondary-bg-color: #262626;
-    --secondary-fg-color: #616161;
-    --highlight-color: #752a2a;
-    --upvote-color: #90a959;
-    --downvote-color: #ac4142;
-  }
-
   @font-face {
     font-family: "FontAwesome";
     font-weight: normal;
@@ -50,11 +40,11 @@
   }
 
   .upmod, .score.likes {
-    color: var(--upvote-color) !important;
+    color: var(--green) !important;
   }
 
   .downmod, .score.dislikes {
-    color: var(--downvote-color) !important;
+    color: var(--red) !important;
   }
 
   .linkflairlabel, #header, .tabmenu a, code, textarea, .content, .morelink, .link .usertext-body .md, .md pre, .linkinfo, input, .infobar, .usertext button, .multi-selector, .multi-name, .multi-list a, .subscribe-button a, .gold-accent, .flair, .nextprev a, .link.last-clicked, .menuarea, .nextprev .separator, .reddit-infobar, .modal-content .buttons a, .hover-bubble, .c-btn-primary, .entry, .search-result-group-header, .happening-now, .author-tooltip__head, .author-tooltip__credentials-list li {
