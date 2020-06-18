@@ -10,6 +10,7 @@
 
 #urlbar > #urlbar-background {
   background: var(--secondary-bg-color) !important;
+  border-radius: 0px !important;
   border: none !important;
 }
 
@@ -24,6 +25,10 @@
 
 .urlbarView-row:not([selected]):hover {
   background: var(--secondary-bg-color);
+}
+
+.urlbarView-row:not([selected]):hover > .urlbarView-row-inner {
+  border-radius: 0px !important;
 }
 
 .urlbarView-row:not([selected]) .urlbarView-url,
@@ -49,10 +54,11 @@
 }
 
 #urlbar[open] > #urlbar-background {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
+  box-shadow: none !important;
 }
 
 .urlbarView {
+  border-inline: unset !important;
   margin: 0px !important;
   width: 100% !important;
 }
