@@ -107,11 +107,13 @@
     border-color: var(--bg-color) !important;
   }
 
-  /* docs.rs crate search */
-  .search-input-nav {
-    color: var(--secondary-fg-color) !important;
-    text-align: left !important;
-    padding: 5px !important;
+  #nav-search {
+    background-color: var(--bg-color) !important;
+    color: var(--fg-color) !important;
+  }
+
+  #search-input-nav {
+    border: unset !important;
   }
 
   /* Syntax colors outside of codeblocks */
@@ -186,12 +188,6 @@
 
   .stab.deprecated {
     background-color: var(--magenta) !important;
-  }
-
-  /* docs.rs "Find crate" dialog */
-  .search-input-nav {
-    background-color: var(--bg-color) !important;
-    color: var(--secondary-fg-color) !important;
   }
 
   /* doc.rust-lang.org tppe/parameter/return switch */
