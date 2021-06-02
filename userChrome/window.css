@@ -1,4 +1,0 @@
-/* Fix white flashing bg */
-#main-window, browser[type="content-primary"], browser[type="content"], tabbrowser#content, #content, browser[type="content"] > html {
-  background: var(--bg-color) !important;
-}

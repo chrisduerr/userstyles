@@ -1,0 +1,10 @@
+/* Border radius */
+:root {
+    --arrowpanel-menuitem-border-radius: 0 !important;
+    --arrowpanel-border-radius: 0 !important;
+}
+
+/* Get rid of "Sign In" */
+#appMenu-fxa-status2, #appMenu-fxa-separator {
+    display: none;
+}

@@ -1,46 +1,52 @@
-.tab-background[selected="true"],
-.tabbrowser-tab:hover .tab-background,
-#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]),
-#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) > .toolbarbutton-icon {
-  background: var(--bg-color) !important;
+/* Border radius */
+:root {
+    --tab-border-radius: 0 !important;
 }
 
-#TabsToolbar {
-  background: var(--secondary-bg-color) !important;
+/* Reduce tab size */
+:root {
+    --tab-min-height: 30px !important;
 }
 
-.tabbrowser-tab:hover:not([selected="true"]) .tab-line {
-  background: var(--highlight-color) !important;
+/* Connect tabs to urlbar */
+tab {
+    padding: 0 !important;
 }
 
-.tab-text {
-  color: var(--fg-color) !important;
+tab vbox {
+    margin: unset !important;
 }
 
-.tabbrowser-tab:hover:not([selected="true"]) .tab-background,
-#TabsToolbar .toolbarbutton-1:hover:not([disabled="true"]) {
-  opacity: .5 !important;
+/* Colors */
+:root {
+    --toolbarbutton-hover-background: var(--secondary-bg-color) !important;
+    --toolbarbutton-active-background: var(--secondary-bg-color) !important;
 }
 
-.tab-background {
-  border: unset !important;
+.tab-loading-burst[bursting]::before {
+    fill: var(--highlight-color) !important;
 }
 
-.tabbrowser-tab::before,
-.tabbrowser-tab::after {
-  border-color: var(--bg-color) !important;
-  border-image: unset !important;
+.tab-throbber[progress]::before {
+    fill: var(--highlight-color) !important;
 }
 
-.tabbrowser-tab {
-  --tab-line-color: var(--highlight-color) !important;
+#TabsToolbar-customization-target {
+    background-color: var(--secondary-bg-color) !important;
 }
 
-.titlebar-placeholder[type="pre-tabs"], .titlebar-placeholder[type="post-tabs"] {
-  display: none !important;
+.tabbrowser-tab:hover .tab-background:not([selected="true"], [multiselected]) {
+    border-top: 2px solid var(--highlight-color) !important;
+    background-color: unset !important;
+    opacity: 66% !important;
 }
 
-/* Color of loading dots and burst when loading is finished */
-.tabbrowser-tab {
-  --tab-loading-fill: var(--highlight-color);
+.tab-background[multi-selected="true"], .tab-background[selected="true"] {
+    border-top: 2px solid var(--highlight-color) !important;
 }
+
+#tabs-newtab-button:hover > .toolbarbutton-icon {
+    background-color: var(--bg-color) !important;
+}
+
+/* TODO: That fucking new tab button */

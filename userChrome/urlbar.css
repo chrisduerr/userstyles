@@ -1,46 +1,14 @@
-/* Bar surrounding the URLbar */
-#nav-bar {
-  background: var(--bg-color) !important;
+/* Border radius */
+:root {
+    --toolbarbutton-border-radius: 0 !important;
 }
 
-/* URLbar colors */
-.urlbarView-row:not([selected]) .urlbarView-title, .urlbar-input-box {
-  color: var(--fg-color) !important;
+/* Hide bookmarks toolbar */
+#PersonalToolbar {
+    display: none !important;
 }
 
-#urlbar > #urlbar-background {
-  background: var(--secondary-bg-color) !important;
-  border-radius: 0px !important;
-  border: none !important;
-}
-
-.urlbarView-body-inner {
-  border-top: none !important;
-}
-
-/* Dropdown result colors */
-.urlbarView-row[selected] {
-  background: var(--highlight-color) !important;
-}
-
-.urlbarView-row:not([selected]):hover {
-  background: var(--secondary-bg-color);
-}
-
-.urlbarView-row:not([selected]):hover > .urlbarView-row-inner {
-  border-radius: 0px !important;
-}
-
-.urlbarView-row:not([selected]) .urlbarView-url,
-.urlbarView-row:not([selected]) .urlbarView-action {
-  color: var(--secondary-fg-color) !important;
-}
-
-.urlbarView-row[selected] .urlbarView-url, .urlbarView-row[selected] .urlbarView-action {
-  color: var(--bg-color) !important;
-}
-
-/* Disable Megabar */
+/* Unfloat the history suggestions */
 #urlbar[breakout][breakout-extend] {
   top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
   left: 0 !important;
@@ -48,30 +16,30 @@
 }
 
 #urlbar[breakout][breakout-extend] > #urlbar-input-container {
-  height: var(--urlbar-height) !important;
-  padding-block: 0 !important;
-  padding-inline: 0 !important;
+    height: var(--urlbar-height) !important;
+    padding-block: 0 !important;
+    padding-inline: 0 !important;
 }
 
-#urlbar[open] > #urlbar-background {
-  box-shadow: none !important;
+#urlbar-background {
+    box-shadow: none !important;
 }
 
-.urlbarView {
-  border-inline: unset !important;
-  margin: 0px !important;
-  width: 100% !important;
+.urlbarView-body-inner {
+    border: unset !important;
 }
 
 .urlbarView-row {
-  padding: 0px !important;
+    padding: 0px !important;
 }
 
-/* Hide useless crap */
-#page-action-buttons,
-.autocomplete-history-dropmarker,
-.urlbar-go-button,
-#identity-icon-labels,
-#tracking-protection-icon-container {
-  display: none !important;
+/* Colors */
+:root {
+    --toolbar-field-non-lwt-bgcolor: var(--secondary-bg-color) !important;
+    --toolbar-bgcolor: var(--bg-color) !important;
+    --toolbar-bgimage: none !important;
+}
+
+#urlbar-background {
+    background-color: var(--secondary-bg-color) !important;
 }
