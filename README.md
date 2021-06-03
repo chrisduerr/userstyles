@@ -6,9 +6,3 @@
 
 # PasteRS
 ![Screenshot](https://i.imgur.com/j1HNbAJ.png)
-
-# Discord
-The discord theme has been moved to https://github.com/pazuzu156/undead-discord.
-
-# Twitter
-The twitter theme is not maintained anymore, but can still be found in the `unmaintained` folder.
