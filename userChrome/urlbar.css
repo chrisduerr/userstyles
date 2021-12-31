@@ -33,6 +33,11 @@
     padding: 0px !important;
 }
 
+/* Hide garbage */
+#tracking-protection-icon-container, #star-button-box {
+    display: none !important;
+}
+
 /* Colors */
 :root {
     --toolbar-field-non-lwt-bgcolor: var(--secondary-bg-color) !important;

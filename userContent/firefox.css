@@ -1,0 +1,32 @@
+/* Internal Firefox pages like about:preferences */
+:root {
+    /* Background */
+    --in-content-page-background: var(--bg-color) !important;
+
+    /* Layout boxes */
+    --in-content-box-background: var(--secondary-bg-color) !important;
+    --in-content-box-border-color: var(--bg-color) !important;
+
+    /* Buttons */
+    --in-content-button-background-active: var(--secondary-bg-color) !important;
+    --in-content-button-background-hover: var(--secondary-bg-color) !important;
+    --in-content-button-background: var(--highlight-color) !important;
+    --in-content-button-border-radius: 0 !important;
+    --in-content-primary-button-background-hover: var(--highlight-color) !important;
+    --in-content-primary-button-background: var(--highlight-color) !important;
+
+    /* Text accent color */
+    --in-content-accent-color: var(--secondary-highlight-color) !important;
+
+    /* Input fields */
+    --in-content-focus-outline-color: var(--highlight-color) !important;
+
+    /* Checkboxes */
+    --checkbox-unchecked-active-bgcolor: var(--secondary-bg-color) !important;
+    --checkbox-unchecked-hover-bgcolor: var(--secondary-bg-color) !important;
+    --checkbox-checked-active-bgcolor: var(--highlight-color) !important;
+    --checkbox-checked-hover-bgcolor: var(--highlight-color) !important;
+    --checkbox-unchecked-bgcolor: var(--secondary-bg-color) !important;
+    --checkbox-checked-bgcolor: var(--highlight-color) !important;
+    --checkbox-border-color: var(--bg-color) !important;
+}
