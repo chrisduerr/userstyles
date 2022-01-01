@@ -1,0 +1,323 @@
+@-moz-document domain("xo-ce") {
+    /* Remove XOA-exclusive features */
+    .nav-sidebar > :nth-child(7), .nav-sidebar > :nth-child(10), .nav-sidebar > :nth-child(14), .nav-sidebar > :nth-child(19) {
+        display: none !important;
+    }
+
+    /* Sidebar menu */
+
+    .xo-menu, .xo-sub-menu, .xo-menu-item {
+        background-color: var(--highlight-color) !important;
+    }
+
+    .xo-menu-item > a.active {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .xo-menu-item:hover > a:not(.active) {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+    }
+
+    .xo-menu-item > a:hover {
+        color: white !important;
+    }
+
+    /* Main content header */
+
+    .page-header {
+        background-color: var(--secondary-bg-color) !important;
+    }
+
+    .nav-tabs {
+        border-color: var(--bg-color) !important;
+    }
+
+    .nav-tabs .nav-item.open .nav-link, .nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-item.open .nav-link:hover, .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover {
+        background-color: var(--bg-color) !important;
+        border-color: var(--bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .nav-tabs .nav-link:not(.active):focus, .nav-tabs .nav-link:not(.active):hover {
+        border: var(--secondary-bg-color) !important;
+    }
+
+    /* Main content panel */
+
+    body {
+        background-color: var(--bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    a {
+        color: var(--secondary-highlight-color);
+    }
+
+    a:focus, a:hover {
+        color: var(--secondary-highlight-color);
+    }
+
+    .card-header {
+        background-color: var(--highlight-color) !important;
+    }
+
+    .card {
+        background-color: var(--secondary-bg-color) !important;
+    }
+
+    .thead-default th, .table td, .table th {
+        border-color: var(--secondary-bg-color) !important;
+        background-color: var(--bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    /* .mc12c16a24_content is VM creation step */
+    .mc12c16a24_content.mc12c16a24_success {
+        border-color: var(--green) !important;
+    }
+
+    .mc12c16a24_title.mc12c16a24_success {
+        color: var(--green) !important;
+    }
+
+    .mc12c16a24_bullet.mc12c16a24_success::after {
+        color: var(--green) !important;
+    }
+
+    /* mc5df48f8c is table stuff */
+    .mc5df48f8c_clickableColumn:not(.bg-info):hover {
+        background-color: rgba(256, 256, 256, 0.05) !important;
+    }
+
+    .mc5df48f8c_clickableColumn.bg-info {
+        background-color: var(--highlight-color) !important;
+    }
+
+    /* mcb2bfb78d is the drag & drop list in VM overview */
+    .mcb2bfb78d_itemContainer, .mcb2bfb78d_item {
+        border-color: var(--secondary-bg-color) !important;
+    }
+
+    .mcb2bfb78d_item:hover {
+        background-color: var(--secondary-bg-color) !important;
+    }
+
+    .list-group-item {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--bg-color) !important;
+    }
+
+    .text-info, .xo-icon-skipped, .xo-icon-suspended, .xo-icon-vm-suspended, .xo-status-suspended {
+        color: var(--secondary-highlight-color) !important;
+    }
+
+    a.text-info:focus, a.text-info:hover, a.xo-icon-skipped:focus, a.xo-icon-skipped:hover, a.xo-icon-suspended:focus, a.xo-icon-suspended:hover, a.xo-icon-vm-suspended:focus, a.xo-icon-vm-suspended:hover, a.xo-status-suspended:focus, a.xo-status-suspended:hover {
+        color: var(--secondary-highlight-color) !important;
+        filter: brightness(1.3);
+    }
+
+    .form-control {
+        background-color: var(--secondary-bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .form-control:focus {
+        border-color: var(--highlight-color) !important;
+    }
+
+    .form-control:disabled {
+        background-color: var(--secondary-bg-color) !important;
+        filter: brightness(0.75) !important;
+    }
+
+    .tag-info {
+        background-color: var(--highlight-color) !important;
+    }
+
+    .tag-primary {
+        background-color: var(--bg-color) !important;
+    }
+
+    progress {
+        background-color: var(--secondary-bg-color) !important;
+    }
+
+    progress::-moz-progress-bar {
+        background-color: var(--highlight-color) !important;
+    }
+
+    meter {
+        background-color: var(--secondary-bg-color) !important;
+    }
+
+    meter::-moz-meter-bar {
+        background-color: var(--highlight-color) !important;
+    }
+
+    .Select-control {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--bg-color) !important;
+    }
+
+    .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+        color: var(--fg-color) !important;
+    }
+
+    .Select-menu-outer {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--bg-color) !important;
+    }
+
+    .Select-option {
+        background-color: var(--secondary-bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .Select-option:hover {
+        background-color: var(--secondary-bg-color) !important;
+        color: var(--fg-color) !important;
+        filter: brightness(1.3) !important;
+    }
+
+    /* Buttons */
+
+    .btn-info, .btn-info:focus, .btn-primary, .btn-primary:focus {
+        background-color: var(--highlight-color) !important;
+        border-color: var(--highlight-color) !important;
+    }
+
+    .btn-info:hover, .btn-primary:hover {
+        background-color: var(--highlight-color) !important;
+        border-color: var(--highlight-color) !important;
+        filter: brightness(1.3) !important;
+    }
+
+    .btn-secondary, .input-group-addon {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--secondary-bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .btn-secondary:hover, .input-group-addon:hover {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--secondary-bg-color) !important;
+        filter: brightness(1.3) !important;
+    }
+
+    .btn-success {
+        background-color: var(--green) !important;
+        border-color: var(--green) !important;
+    }
+
+    .btn-warning {
+        background-color: var(--yellow) !important;
+        border-color: var(--yellow) !important;
+    }
+
+    .btn-danger {
+        background-color: var(--red) !important;
+        border-color: var(--red) !important;
+    }
+
+    .btn-link {
+        color: var(--secondary-highlight-color) !important;
+    }
+
+    .btn-link:focus, .btn-link:hover {
+        color: var(--secondary-highlight-color) !important;
+        filter: brightness(1.3) !important;
+    }
+
+    .btn-info.active, .btn-info:active, .open > .btn-info.dropdown-toggle {
+        background-color: var(--highlight-color) !important;
+        border-color: var(--highlight-color) !important;
+    }
+
+    .dropdown-menu {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--bg-color) !important;
+    }
+
+    .dropdown-item {
+        color: var(--fg-color) !important;
+    }
+
+    .dropdown-item:hover {
+        background-color: var(--secondary-bg-color) !important;
+        filter: brightness(1.3) !important;
+    }
+
+    /* Modal */
+
+    .modal-content {
+        background-color: var(--secondary-bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .modal-header, .modal-footer {
+        border-color: var(--bg-color) !important;
+    }
+
+    .close {
+        color: var(--fg-color) !important;
+    }
+
+    /* MISC */
+
+    .text-success, .xo-icon-all-connected, .xo-icon-host-running, .xo-icon-running, .xo-icon-success, .xo-icon-true, .xo-icon-vm-running, .xo-status-running {
+        color: var(--green) !important;
+    }
+
+    /* RAM usage graph */
+    .usage {
+        background-color: var(--secondary-bg-color) !important;
+    }
+
+    .usage-element {
+        color: var(--green) !important;
+        box-shadow: unset !important;
+    }
+
+    .usage-element-highlight {
+        color: var(--yellow) !important;
+    }
+
+    /* Look at these graphs */
+    .ct-label {
+        color: var(--fg-color) !important;
+    }
+
+    .ct-grid {
+        stroke: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    .ct-series-a .ct-bar, .ct-series-a .ct-line, .ct-series-a .ct-point, .ct-series-a .ct-slice-donut {
+        stroke: var(--green) !important;
+    }
+
+    .ct-series-b .ct-bar, .ct-series-b .ct-line, .ct-series-b .ct-point, .ct-series-b .ct-slice-donut {
+        stroke: var(--blue) !important;
+    }
+
+    .ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+        fill: var(--green) !important;
+    }
+
+    .ct-series-b .ct-area, .ct-series-b .ct-slice-pie {
+        fill: var(--blue) !important;
+    }
+
+    .ct-legend .ct-series-0::before {
+        background-color: var(--green) !important;
+        border-color: var(--green) !important;
+    }
+
+    .ct-legend .ct-series-1::before {
+        background-color: var(--blue) !important;
+        border-color: var(--blue) !important;
+    }
+
+    text {
+        fill: var(--fg-color) !important;
+    }
+}
