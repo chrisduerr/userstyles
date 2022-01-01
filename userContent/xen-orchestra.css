@@ -183,6 +183,23 @@
         color: var(--fg-color) !important;
     }
 
+    .page-link {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--bg-color) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .page-link:focus, .page-link:hover {
+        background-color: var(--secondary-bg-color) !important;
+        border-color: var(--bg-color) !important;
+        filter: brightness(1.3) !important;
+        color: var(--fg-color) !important;
+    }
+
+    .active .page-link {
+        filter: brightness(1.5) !important;
+    }
+
     /* Buttons */
 
     .btn-info, .btn-info:focus, .btn-primary, .btn-primary:focus {
