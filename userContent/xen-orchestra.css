@@ -18,8 +18,8 @@
         background-color: rgba(0, 0, 0, 0.2) !important;
     }
 
-    .xo-menu-item > a:hover {
-        color: white !important;
+    .xo-menu a, .xo-menu a:hover, .xo-menu a:focus {
+        color: inherit !important;
     }
 
     /* Main content header */
@@ -50,11 +50,11 @@
     }
 
     a {
-        color: var(--secondary-highlight-color);
+        color: var(--secondary-highlight-color) !important;
     }
 
     a:focus, a:hover {
-        color: var(--secondary-highlight-color);
+        color: var(--secondary-highlight-color) !important;
     }
 
     .card-header {
@@ -135,7 +135,7 @@
     }
 
     .tag-primary {
-        background-color: var(--bg-color) !important;
+        background-color: white !important;
     }
 
     progress {
@@ -207,6 +207,10 @@
     .btn-success {
         background-color: var(--green) !important;
         border-color: var(--green) !important;
+    }
+
+    .btn-success, .btn-success:hover, .btn-success:focus {
+        color: white !important;
     }
 
     .btn-warning {
