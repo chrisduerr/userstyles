@@ -136,6 +136,7 @@
 
     .tag-primary {
         background-color: white !important;
+        color: var(--highlight-color) !important;
     }
 
     progress {
