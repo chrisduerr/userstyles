@@ -32,8 +32,9 @@
   }
 
   /* Highlighted element */
-  :target {
+  :target, :target > * {
     background-color: var(--secondary-bg-color) !important;
+    border-color: var(--highlight-color) !important;
   }
 
   /* Codeblocks */
@@ -69,11 +70,18 @@
   /* Search bar */
   .search-input {
     background-color: var(--secondary-bg-color) !important;
+    color: var(--fg-color) !important;
     box-shadow: unset !important;
   }
 
   nav {
     border: unset !important;
+  }
+
+  #theme-picker, #settings-menu, #help-button {
+      background-color: var(--secondary-bg-color) !important;
+      border-color: var(--bg-color) !important;
+      color: var(--fg-color) !important;
   }
 
   /* Search */
@@ -87,6 +95,10 @@
 
   .result.highlighted span {
     color: var(--secondary-fg-color) !important;
+  }
+
+  .search-results a:hover {
+      background-color: var(--secondary-bg-color) !important;
   }
 
   /* docs.rs navigator */
@@ -200,6 +212,10 @@
     border: unset !important;
   }
 
+  #titles > button:hover, #titles > button.selected {
+      border-color: var(--highlight-color) !important;
+  }
+
   /* docs.rs outside of docs */
   .pure-button {
     background-color: var(--secondary-bg-color) !important;
@@ -249,6 +265,7 @@
   #crate-search {
     background: var(--secondary-bg-color) !important;
     border-color: var(--bg-color) !important;
+    color: var(--fg-color) !important;
     box-shadow: none !important;
     background-blend-mode: exclusion;
   }
@@ -284,5 +301,17 @@
 
   .sidebar .version {
     border-bottom-color: var(--bg-color) !important;
+  }
+
+  /* Help popup */
+  #help > div, #help span.bottom, #help span.top {
+      background-color: var(--bg-color) !important;
+      border-color: var(--secondary-bg-color) !important;
+  }
+
+  kbd {
+      background-color: var(--secondary-bg-color) !important;
+      border-color: var(--bg-color) !important;
+      color: var(--fg-color) !important;
   }
 }
