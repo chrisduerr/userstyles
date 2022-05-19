@@ -18,35 +18,10 @@ tab vbox {
 }
 
 /* Colors */
-:root {
-    --toolbarbutton-hover-background: var(--secondary-bg-color) !important;
-    --toolbarbutton-active-background: var(--secondary-bg-color) !important;
-}
-
-.tab-loading-burst[bursting]::before {
-    fill: var(--highlight-color) !important;
-}
-
-.tab-throbber[progress]::before {
-    fill: var(--highlight-color) !important;
-}
-
-#TabsToolbar-customization-target {
-    background-color: var(--secondary-bg-color) !important;
-}
-
 .tabbrowser-tab:hover .tab-background:not([selected="true"], [multiselected]) {
     border-top: 2px solid var(--highlight-color) !important;
-    background-color: unset !important;
-    opacity: 66% !important;
 }
 
 .tab-background[multi-selected="true"], .tab-background[selected="true"] {
     border-top: 2px solid var(--highlight-color) !important;
 }
-
-#tabs-newtab-button:hover > .toolbarbutton-icon {
-    background-color: var(--bg-color) !important;
-}
-
-/* TODO: That fucking new tab button */

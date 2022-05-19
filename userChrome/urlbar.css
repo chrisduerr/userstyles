@@ -39,12 +39,6 @@
 }
 
 /* Colors */
-:root {
-    --toolbar-field-non-lwt-bgcolor: var(--secondary-bg-color) !important;
-    --toolbar-bgcolor: var(--bg-color) !important;
-    --toolbar-bgimage: none !important;
-}
-
-#urlbar-background {
-    background-color: var(--secondary-bg-color) !important;
+.urlbarView-url {
+    color: var(--secondary-fg-color) !important;
 }
