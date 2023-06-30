@@ -1,6 +1,3 @@
-# Reddit
-![Screenshot](https://i.imgur.com/WTrojUz.png)
-
 # Rustdoc
 ![Screenshot](https://i.imgur.com/P0l7Dgq.png)
 
