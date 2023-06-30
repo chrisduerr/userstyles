@@ -25,3 +25,10 @@ tab vbox {
 .tab-background[multi-selected="true"], .tab-background[selected="true"] {
     border-top: 2px solid var(--highlight-color) !important;
 }
+
+/* Remove left separator from leftmost tab */
+#tabbrowser-tabs {
+    padding-left: unset !important;
+    margin-left: unset !important;
+    border: unset !important;
+}

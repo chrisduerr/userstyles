@@ -40,5 +40,5 @@
 
 /* Colors */
 .urlbarView-url {
-    color: var(--secondary-fg-color) !important;
+    color: var(--fg-color) !important;
 }
