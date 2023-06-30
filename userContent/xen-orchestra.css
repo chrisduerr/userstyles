@@ -273,6 +273,11 @@
         filter: brightness(1.3) !important;
     }
 
+    .popover {
+        background-color: transparent !important;
+        border: unset  !important;
+    }
+
     /* Modal */
 
     .modal-content {
