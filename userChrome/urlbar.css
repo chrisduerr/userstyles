@@ -42,3 +42,11 @@
 .urlbarView-url {
     color: var(--fg-color) !important;
 }
+
+#navigator-toolbox {
+    border-bottom: none !important;
+}
+
+#alltabs-button {
+    display: none !important;
+}

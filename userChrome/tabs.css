@@ -18,12 +18,9 @@ tab vbox {
 }
 
 /* Colors */
-.tabbrowser-tab:hover .tab-background:not([selected="true"], [multiselected]) {
+.tabbrowser-tab[multiselected="true"], .tabbrowser-tab[selected="true"], .tabbrowser-tab:hover {
     border-top: 2px solid var(--highlight-color) !important;
-}
-
-.tab-background[multi-selected="true"], .tab-background[selected="true"] {
-    border-top: 2px solid var(--highlight-color) !important;
+    overflow-clip-margin: unset !important;
 }
 
 /* Remove left separator from leftmost tab */
