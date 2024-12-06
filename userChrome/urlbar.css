@@ -8,17 +8,10 @@
     display: none !important;
 }
 
-/* Unfloat the history suggestions */
 #urlbar[breakout][breakout-extend] {
-  top: calc((var(--urlbar-container-height) - var(--urlbar-height)) / 2) !important;
-  left: 0 !important;
-  width: 100% !important;
-}
-
-#urlbar[breakout][breakout-extend] > #urlbar-input-container {
-    height: var(--urlbar-height) !important;
-    padding-block: 0 !important;
-    padding-inline: 0 !important;
+  width: var(--urlbar-width) !important;
+  margin-left: unset !important;
+  margin-top: var(--urlbar-padding-block) !important;
 }
 
 #urlbar-background {
