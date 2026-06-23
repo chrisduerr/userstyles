@@ -1,0 +1,21 @@
+/* Border radius */
+:root {
+    --border-radius-xsmall: 0 !important;
+    --border-radius-small: 0 !important;
+    --border-radius-medium: 0 !important;
+    --border-radius-large: 0 !important;
+
+    --arrowpanel-menuitem-border-radius: 0 !important;
+    --panel-menuitem-border-radius: 0 !important;
+    --toolbarbutton-border-radius: 0 !important;
+    --urlbar-inner-border-radius: 0 !important;
+    --arrowpanel-border-radius: 0 !important;
+    --urlbarview-border-radius: 0 !important;
+    --urlbar-border-radius: 0 !important;
+    --panel-border-radius: 0 !important;
+    --badge-border-radius: 0 !important;
+    --panel-border-radius: 0 !important;
+    --card-border-radius: 0 !important;
+    --tab-border-radius: 0 !important;
+}
+
