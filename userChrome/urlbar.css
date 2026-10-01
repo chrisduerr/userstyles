@@ -9,7 +9,7 @@
   margin-top: var(--urlbar-padding-block) !important;
 }
 
-#urlbar-background {
+#urlbar-background, .urlbarView-background {
     box-shadow: none !important;
 }
 
@@ -22,7 +22,7 @@
 }
 
 /* Hide garbage */
-#tracking-protection-icon-container, #star-button-box {
+#tracking-protection-icon-container, #star-button-box, .searchmode-switcher {
     display: none !important;
 }
 
@@ -37,4 +37,13 @@
 
 #alltabs-button {
     display: none !important;
+}
+
+/* Remove origin type from history search favicons */
+.urlbarView-type-icon {
+    display: none !important;
+}
+
+.urlbarView-favicon {
+    mask: unset !important;
 }
