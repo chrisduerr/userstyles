@@ -4,6 +4,7 @@
     --border-radius-small: 0 !important;
     --border-radius-medium: 0 !important;
     --border-radius-large: 0 !important;
+    --border-radius-xlarge: 0 !important;
 
     --arrowpanel-menuitem-border-radius: 0 !important;
     --panel-menuitem-border-radius: 0 !important;
@@ -18,4 +19,3 @@
     --card-border-radius: 0 !important;
     --tab-border-radius: 0 !important;
 }
-
